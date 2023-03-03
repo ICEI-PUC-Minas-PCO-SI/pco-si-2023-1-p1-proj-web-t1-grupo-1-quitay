@@ -1,13 +1,13 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=10354549&assignment_repo_type=AssignmentRepo)
-# TÍTULO DO PROJETO
-
-`CURSO`
-
-`DISCIPLINA`
-
-`SEMESTRE`
-
 # G1 - Quitay
+
+`Sistemas de Informação`
+
+`(2513101) Trabalho Interdisciplinar: Aplicações Web`
+
+`1º Semestre`
+
+
 Aplicação para gerenciamento e priorização de gastos.
 
 ## Alunos integrantes da equipe
