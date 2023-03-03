@@ -28,6 +28,11 @@ Apresente também alguns (pelo menos 2) objetivos específicos dependendo de ond
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
+Comumente, Brasileiros se endividam por pagar suas contas com atraso ou nem se quer conseguir pagar. Nosso objetivo é trazer uma gestão e apresentar possíveis soluções para minimizar os impactos.
+
+Com a maioria das familias Brasieliras endividadas e com pouco conhecimento sobre educação financeira, a Quitay surge com o objetivo de facilitar o controle de suas contas, seus pagamentos e controle de juros. Trazendo visões com balanço de caixa mensal.
+
+---Template---
 
 Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
 
