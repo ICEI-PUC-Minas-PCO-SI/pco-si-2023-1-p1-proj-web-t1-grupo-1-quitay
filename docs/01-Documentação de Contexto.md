@@ -1,11 +1,15 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+||Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.||
+
+O projeto consiste em auxiliar a população brasileira a lidar com suas contas e dívidas. Com base nisso entendemos que é imprescindível atender a essa necessidade, para isso criamos a Quitay que preoporcionará gerenciamento e priorização de gastos, através de ferramentas fornecidas por nossa aplicação. Com isso visamos atender todas as pessoas que tenham acesso a internet e que possuem interesse em melhorar a gestão das suas contas e dívidas. 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
+||Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
+Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.||
+
+Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulgada no dia 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), O endividamento atingiu 77,9% das famílias brasileiras em 2022. Sabendo disso compreendemos que é de extrema carência ferramentas que indicam a essas famílias caminhos que irão auxiliá-los a deixar essa margem dos endavidados.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
 
