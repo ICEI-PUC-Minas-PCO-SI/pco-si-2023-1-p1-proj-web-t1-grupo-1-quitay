@@ -21,10 +21,15 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+||Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima.||
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
+A Quitay vem com o objetivo de ajudar seu usuário a ter um controle de forma consciente de seus gastos, assim evitando o superendividamento, que são os gastos que fogem do controle de seu orçamento. 
+
+||Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.||
+
+Como exemplo o início da pandemia aprofundou as desigualdades, colocou muitas pessoas  na informalidade e fez a renda cair,ao mesmo tempo  a inflação alta foi cruel com quem ganhava menos. 
+
+
 > **Links Úteis**:
 > - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
