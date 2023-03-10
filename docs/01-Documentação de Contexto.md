@@ -9,6 +9,7 @@ O projeto consiste em auxiliar a população brasileira a lidar com suas contas 
 
 Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.||
 
+Existe uma relação entre a educação financeira no país e o endividamento?, Quais são os fatores que determinam como quitar suas dívidas?, Quais os efeitos de ferramentas que auxiliam no pagamento de suas contas sobre os usuários da internet?
 Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulgada no dia 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), O endividamento atingiu 77,9% das famílias brasileiras em 2022. Sabendo disso compreendemos que é de extrema carência ferramentas que indicam a essas famílias caminhos que irão auxiliá-los a deixar essa margem dos endavidados.
 
 Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
@@ -43,7 +44,8 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-A Quitay, veio com um intuito de ajudar a todos aqueles endividados e aqueles que querem se prevenir de ficarem endividados. Não tem bem uma faixa etária definitiva, é para todos, desde os que estão começando a receber sua primeira mezada ou salário na vida, que grande parte não tem um conhecimento de educação financeira, até os mais velhos que se consideram sabios nessa parte, afinal, conhecimento nunca é demais, o aprendizado contínuo permite desenvolver novas habilidades, e também aperfeiçoar as já existentes e que apenas precisam ser “lapidadas”.
+Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
+hierárquicas, etc.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
