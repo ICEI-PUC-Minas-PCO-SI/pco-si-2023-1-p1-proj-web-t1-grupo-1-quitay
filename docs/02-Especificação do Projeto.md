@@ -6,10 +6,11 @@
 
 Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto||
 
-O Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com os seus boletos pendentes. Através de uma interface intuitiva é possível que o usuário insira suas informações financeiras e receba sugestões personalizadas com o seu problema, por exemplo: como evitar multas e juros por atrasos de pagamento, como economizar seu dinheiro e qual conta priorizar. 
-
+O Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com os seus boletos pendentes. Através de uma interface intuitiva é possível que o usuário insira suas informações financeiras e receba sugestões personalizadas com o seu problema, por exemplo: como evitar mutas e juros por atrasos de pagamento, como ecomizar seu dinheiro e qual conta priorizar. 
 
 ## Personas
+
+José tem 31 anos, é motorista de aplicativo. Pensa em montar um pequeno negócio e está trabalhando em jornada dupla para juntar dinheiro. Precisa de auxílio para investir melhor seus rendimentos. 
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
