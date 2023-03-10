@@ -43,7 +43,7 @@ O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estat�
 
 ## Público-Alvo
 
-A Quitay, veio com um intuito de ajudar a todos aqueles endividados e aqueles que querem se prevenir de ficarem endividados. Não tem bem uma faixa etária definitiva.
+A Quitay, veio com um intuito de ajudar a todos aqueles endividados e aqueles que querem se prevenir de ficarem endividados. Não tem bem uma faixa etária definitiva, é para todos, desde os que estão começando a receber sua primeira mezada ou salário na vida, que grande parte não tem um conhecimento de educação financeira, até os mais velhos que se consideram sabios nessa parte, afinal, conhecimento nunca é demais, o aprendizado contínuo permite desenvolver novas habilidades, e também aperfeiçoar as já existentes e que apenas precisam ser “lapidadas”.
 
 Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
 
