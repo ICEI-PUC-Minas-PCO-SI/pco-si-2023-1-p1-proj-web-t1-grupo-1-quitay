@@ -12,6 +12,10 @@ O Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças 
 
 José tem 31 anos, é motorista de aplicativo. Pensa em montar um pequeno negócio e está trabalhando em jornada dupla para juntar dinheiro. Precisa de auxílio para investir melhor seus rendimentos. 
 
+Júlia tem 22 anos, é nutricionista recém-formada, desempregada e mora com os pais. Está pensando em mudar de cidade para iniciar em um novo trabalho, mas tem receio de não conseguir administrar o dinheiro. 
+
+Maria mora com os pais, tem 19 anos e é universitária. 
+
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
