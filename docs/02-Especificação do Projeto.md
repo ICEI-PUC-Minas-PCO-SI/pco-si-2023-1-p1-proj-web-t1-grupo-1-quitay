@@ -14,9 +14,20 @@ José tem 31 anos, é motorista de aplicativo. Pensa em montar um pequeno negóc
 
 Júlia tem 22 anos, é nutricionista recém-formada, desempregada e mora com os pais. Está pensando em mudar de cidade para iniciar em um novo trabalho, mas tem receio de não conseguir administrar o dinheiro. 
 
-Maria mora com os pais, tem 19 anos e é universitária...
-
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+
+Júlia, 25 anos, estudante universitária, trabalha meio período em um café. Ela tem um orçamento apertado e está sempre procurando maneiras de economizar dinheiro.
+
+João, 35 anos, gerente de vendas em uma empresa de tecnologia. Ele ganha um bom salário e tem uma família para sustentar. Ele está procurando maneiras de economizar dinheiro e investir em sua aposentadoria.
+
+Luciana, 40 anos, dona de casa e mãe de dois filhos. Ela é responsável por pagar as contas da casa e está sempre procurando maneiras de economizar dinheiro.
+
+Ricardo, 30 anos, freelancer em tempo integral. Ele tem uma renda variável e precisa gerenciar suas finanças com cuidado para garantir que possa pagar suas contas todos os meses.
+
+Mariana, 28 anos, recém-formada em direito e trabalhando em um escritório de advocacia. Ela está procurando maneiras de economizar dinheiro para pagar seus empréstimos estudantis.
+
+Carlos, 50 anos, aposentado e vivendo com uma renda fixa limitada. Ele precisa gerenciar suas finanças com cuidado para garantir que possa pagar suas contas todos os meses.
+
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
