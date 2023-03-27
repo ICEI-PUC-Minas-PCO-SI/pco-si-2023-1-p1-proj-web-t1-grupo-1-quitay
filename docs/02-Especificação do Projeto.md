@@ -44,9 +44,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-RF-001 | Permitir que o usuário cadastre suas despesas | ALTA
-RF-002 | Permitir que o usuário cadastre seus rendimnetos | ALTA
-RF-003 | Emitir um relatório de gastos e despesas | MÉDIA
+RNF-001 | Permitir que o usuário cadastre seu usuário | ALTA
+RNF-002 | Permitir que o usuário altere sua senha | ALTA
+RNF-003 | Permitir que o usuário altere seus dados de cadastro | ALTA
+RNF-004 | Permitir que o usuário cadastre suas despesas | ALTA
+RNF-005 | Permitir que o usuário cadastre seus rendimnetos | ALTA
+RNF-006 | Emitir um relatório de gastos e despesas | MÉDIA
 
 
 ### Requisitos não Funcionais
