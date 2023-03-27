@@ -49,7 +49,12 @@ RNF-002 | Permitir que o usuário altere sua senha | ALTA
 RNF-003 | Permitir que o usuário altere seus dados de cadastro | ALTA
 RNF-004 | Permitir que o usuário cadastre suas despesas | ALTA
 RNF-005 | Permitir que o usuário cadastre seus rendimnetos | ALTA
-RNF-006 | Emitir um relatório de gastos e despesas | MÉDIA
+RNF-006 | Permitir que o usuário crie categorias de despesas, como alimentação, transporte, moradia, lazer, entre outras. | MEDIA
+RNF-007 | permitir que o usuário estabeleça limites para cada categoria de despesa e receber alertas quando o limite for atingido ou ultrapassado | MEDIA
+RNF-008 | Permitir acesso a sugestões de como economizar dinheiro em cada categoria de despesa. | MEDIA
+RNF-009 | permitir que o usuário crie metas de economia para cada categoria de despesa | MEDIA
+
+RNF-010 | Emitir um relatório de gastos e despesas | MÉDIA
 
 
 ### Requisitos não Funcionais
