@@ -12,7 +12,7 @@ Júlia tem 22 anos, é nutricionista recém-formada, desempregada e mora com os 
 
 Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
 
-Júlia, 25 anos, estudante universitária, trabalha meio período em um café. Ela tem um orçamento apertado e está sempre procurando maneiras de economizar dinheiro.
+Maria, 25 anos, estudante universitária, trabalha meio período em um café. Ela tem um orçamento apertado e está sempre procurando maneiras de economizar dinheiro.
 
 João, 35 anos, gerente de vendas em uma empresa de tecnologia. Ele ganha um bom salário e tem uma família para sustentar. Ele está procurando maneiras de economizar dinheiro e investir em sua aposentadoria.
 
@@ -31,8 +31,8 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Motorista de aplicativo  | Dicas de investimento           | Melhoras os rendimentos               |
+|Nutricionista recém-formada       | Saber quando e como usar o dinheiro                 | Ter dinheiro para estudar fora |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
