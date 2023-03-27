@@ -23,6 +23,7 @@ Com a maioria das familias Brasieliras endividadas e com pouco conhecimento sobr
 
 ## Público-Alvo
 
+Temos como nosso público-alvo:
 Jovens e adultos: A Quitay pode ser voltada para aqueles que estão apenas começando a gerenciar suas finanças pessoais, como estudantes universitários ou jovens profissionais. Eles podem estar interessados em recursos que os ajudem a controlar suas despesas, criar orçamentos e economizar dinheiro para objetivos de curto e longo prazo.
 
 Empreendedores: A Quitay também pode ser direcionada a empreendedores que estão gerenciando as finanças de seus negócios. Eles podem estar interessados em recursos para monitorar fluxo de caixa, rastrear despesas e receitas e gerenciar pagamentos a fornecedores e funcionários.
