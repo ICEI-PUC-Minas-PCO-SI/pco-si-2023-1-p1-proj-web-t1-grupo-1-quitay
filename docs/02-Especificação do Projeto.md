@@ -44,17 +44,17 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-RNF-001 | Permitir que o usuário cadastre seu usuário | ALTA
-RNF-002 | Permitir que o usuário altere sua senha | ALTA
-RNF-003 | Permitir que o usuário altere seus dados de cadastro | ALTA
-RNF-004 | Permitir que o usuário cadastre suas despesas | ALTA
-RNF-005 | Permitir que o usuário cadastre seus rendimnetos | ALTA
-RNF-006 | Permitir que o usuário crie categorias de despesas, como alimentação, transporte, moradia, lazer, entre outras. | MEDIA
-RNF-007 | permitir que o usuário estabeleça limites para cada categoria de despesa e receber alertas quando o limite for atingido ou ultrapassado | MEDIA
-RNF-008 | Permitir acesso a sugestões de como economizar dinheiro em cada categoria de despesa. | MEDIA
-RNF-009 | permitir que o usuário crie metas de economia para cada categoria de despesa | MEDIA
-
-RNF-010 | Emitir um relatório de gastos e despesas | MÉDIA
+RF-001 | Permitir que o usuário cadastre seu usuário | ALTA
+RF-002 | Permitir que o usuário altere sua senha | ALTA
+RF-003 | Permitir que o usuário altere seus dados de cadastro | ALTA
+RF-004 | Permitir que o usuário cadastre suas despesas | ALTA
+RF-005 | Permitir que o usuário cadastre seus rendimnetos | ALTA
+RF-006 | Permitir que o usuário crie categorias de despesas, como alimentação, transporte, moradia, lazer, entre outras. | MEDIA
+RF-007 | permitir que o usuário estabeleça limites para cada categoria de despesa e receber alertas quando o limite for atingido ou ultrapassado | MEDIA
+RF-008 | Permitir acesso a sugestões de como economizar dinheiro em cada categoria de despesa. | MEDIA
+RF-009 | permitir que o usuário crie metas de economia para cada categoria de despesa | MEDIA
+RF-010 | Emitir um relatório de gastos e despesas | MEDIA
+RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicando quais são as mais importantes | MEDIA
 
 
 ### Requisitos não Funcionais
