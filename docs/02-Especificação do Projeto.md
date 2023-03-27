@@ -61,23 +61,13 @@ RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicand
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+RNF-001 | Usabilidade: a aplicação deve ser fácil de usar e ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade | MEDIA
+RNF-002 | Segurança: a aplicação deve ser segura e proteger os dados pessoais dos usuários, incluindo senhas e informações financeiras | ALTA
+RNF-003 | Escalabilidade: a aplicação deve ser escalável, permitindo que suporte um grande número de usuários e cresça com o tempo | MEDIA
+RNF-004 | Confiabilidade: a aplicação deve ser confiável e estável, evitando erros e falhas que possam levar à perda de dados | ALTA
+RNF-005 | Documentação: a aplicação deve ter uma documentação clara e detalhada, para que os usuários possam entender como usá-la e solucionar problemas | MEDIA
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
