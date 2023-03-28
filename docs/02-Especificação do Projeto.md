@@ -28,7 +28,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
 |Motorista de aplicativo  | Dicas de investimento           | Melhoras os rendimentos               |
-|Nutricionista, mora com os pais     | Saber quando e como usar o dinheiro                 | Mudar de cidade, morar sozinha |
+|Nutricionista, mora com os pais     | Saber quando e como usar o dinheiro    | Mudar de cidade, morar sozinha |
 |Gerente de vendas | Dicas de economia | Investir em sua aposentadoria |
 |Dona de casa, mãe de 2 filhos | Formas de pagar as contas| Economizar dinheiro |
 |Free lancer em tempo integral | Gerenciar investimentos | Pagar as contas |
@@ -60,7 +60,7 @@ RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicand
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
+|-------|--------------------------------|----|
 |RNF-001 | Usabilidade: a aplicação deve ser fácil de usar e ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade | MEDIA|
 |RNF-002 | Segurança: a aplicação deve ser segura e proteger os dados pessoais dos usuários, incluindo senhas e informações financeiras | ALTA|
 |RNF-003 | Escalabilidade: a aplicação deve ser escalável, permitindo que suporte um grande número de usuários e cresça com o tempo | MEDIA|
