@@ -2,7 +2,7 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-O Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com os seus boletos pendentes. Através de uma interface intuitiva é possível que o usuário insira suas informações financeiras e receba sugestões personalizadas com o seu problema, por exemplo: como evitar multas e juros por atrasos de pagamento, como ecomizar seu dinheiro e qual conta priorizar. 
+A Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com os seus boletos pendentes. Através de uma interface intuitiva é possível que o usuário insira suas informações financeiras e receba sugestões personalizadas com o seu problema, por exemplo: como evitar multas e juros por atrasos de pagamento, como ecomizar seu dinheiro e qual conta priorizar. 
 
 ## Personas
 
