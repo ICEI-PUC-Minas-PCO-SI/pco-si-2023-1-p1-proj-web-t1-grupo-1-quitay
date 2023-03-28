@@ -22,7 +22,6 @@ Aplicação para gerenciamento e priorização de gastos.
 ## Professores responsáveis
 
 * Fabio Leandro Rodrigues Cordeiro 
-* Nome completo do professor 2
 
 ## Instruções de utilização
 
