@@ -70,7 +70,7 @@ RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicand
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
