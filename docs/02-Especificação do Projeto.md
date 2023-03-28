@@ -67,7 +67,6 @@ RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicand
 |RNF-004 | Confiabilidade: a aplicação deve ser confiável e estável, evitando erros e falhas que possam levar à perda de dados | ALTA|
 |RNF-005 | Documentação: a aplicação deve ter uma documentação clara e detalhada, para que os usuários possam entender como usá-la e solucionar problemas | MEDIA|
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
 ## Restrições
 
