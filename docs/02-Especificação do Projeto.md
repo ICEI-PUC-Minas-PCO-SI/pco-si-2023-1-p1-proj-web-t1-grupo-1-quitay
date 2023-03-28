@@ -61,11 +61,11 @@ RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicand
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-RNF-001 | Usabilidade: a aplicação deve ser fácil de usar e ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade | MEDIA
-RNF-002 | Segurança: a aplicação deve ser segura e proteger os dados pessoais dos usuários, incluindo senhas e informações financeiras | ALTA
-RNF-003 | Escalabilidade: a aplicação deve ser escalável, permitindo que suporte um grande número de usuários e cresça com o tempo | MEDIA
-RNF-004 | Confiabilidade: a aplicação deve ser confiável e estável, evitando erros e falhas que possam levar à perda de dados | ALTA
-RNF-005 | Documentação: a aplicação deve ter uma documentação clara e detalhada, para que os usuários possam entender como usá-la e solucionar problemas | MEDIA
+|RNF-001 | Usabilidade: a aplicação deve ser fácil de usar e ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade | MEDIA|
+|RNF-002 | Segurança: a aplicação deve ser segura e proteger os dados pessoais dos usuários, incluindo senhas e informações financeiras | ALTA|
+|RNF-003 | Escalabilidade: a aplicação deve ser escalável, permitindo que suporte um grande número de usuários e cresça com o tempo | MEDIA|
+|RNF-004 | Confiabilidade: a aplicação deve ser confiável e estável, evitando erros e falhas que possam levar à perda de dados | ALTA|
+|RNF-005 | Documentação: a aplicação deve ter uma documentação clara e detalhada, para que os usuários possam entender como usá-la e solucionar problemas | MEDIA|
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -75,12 +75,10 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01 | Orçamento limitado: a aplicação deve ser projetada para trabalhar dentro de um orçamento limitado (sabendo que nossa aplicação não tem custo financeiro somete recurso tempo dos participantes) e utilizar recursos de forma eficiente|
+|02 | Disponibilidade de dados: a aplicação deve ser capaz de trabalhar com as informações financeiras fornecidas pelos usuários, sem depender de outras fontes de dados|
+|03 | Tempo de desenvolvimento: a aplicação deve ser desenvolvida dentro de um prazo estabelecido, de acordo com as demandas estabelecidas pelo professor da matéria|
+|04 | Compatibilidade de plataforma: a aplicação deve ser compatível com navegadores web|
+|05 | Confiabilidade e segurança: a aplicação deve ser desenvolvida para ser confiável e segura, evitando problemas de privacidade, segurança e desempenho|
+|06 |Necessidades de treinamento: a aplicação deve ser projetada para ser facilmente compreendida e utilizada pelos usuários, sem a necessidade de treinamento complexo|
 
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
