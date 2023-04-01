@@ -16,7 +16,7 @@ O objetivo final seria permitir que os usuários tomem melhores decisões financ
 
 ## Justificativa
 
-Com a maioria das familias Brasieliras endividadas e com pouco conhecimento sobre educação financeira, a Quitay facilita o controle de contas, organiza seus pagamentos para que não tenha multa ou juros por atraso, com um gestão financeira mensal simplicada para o usuário.
+Com a maioria das familias Brasieliras endividadas e com pouco conhecimento sobre educação financeira, a Quitay facilita o controle de contas, organiza seus pagamentos para que não tenha multa ou juros por atraso. Com um gestão financeira simplicada e de fácil interpretação para o usuário, que não exija conhecimentos sobre finanças.
 
 
 ## Público-Alvo
