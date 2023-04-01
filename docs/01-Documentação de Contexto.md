@@ -15,10 +15,8 @@ O objetivo final seria permitir que os usuários tomem melhores decisões financ
 
 
 ## Justificativa
-Comumente, Brasileiros se endividam por pagar suas contas com atraso ou nem se quer conseguir pagar. Nosso objetivo é trazer uma gestão e apresentar possíveis soluções para minimizar os impactos.
 
-Com a maioria das familias Brasieliras endividadas e com pouco conhecimento sobre educação financeira, a Quitay surge com o objetivo de facilitar o controle de suas contas, seus pagamentos e controle de juros. Trazendo visões com balanço de caixa mensal.
-
+Com a maioria das familias Brasieliras endividadas e com pouco conhecimento sobre educação financeira, a Quitay facilita o controle de contas, organiza seus pagamentos para que não tenha multa ou juros por atraso, com um gestão financeira mensal simplicada para o usuário.
 
 
 ## Público-Alvo
