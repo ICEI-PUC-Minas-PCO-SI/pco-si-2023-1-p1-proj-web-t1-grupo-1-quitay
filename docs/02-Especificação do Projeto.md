@@ -6,21 +6,19 @@ Este projeto utiliza tecnologias modernas e eficientes para garantir a melhor ex
 
 ## Personas
 
-José: Tem 31 anos e trabalha como motorista de aplicativo, é solteiro e gosta de jogar futebol com os amigos nos fins de semana.
-Sua principal motivação é montar um pequeno negócio e ter mais estabilidade financeira. Ele tem insegurança em relação a investir seu dinheiro de maneira eficiente e tem medo de não conseguir juntar o suficiente para realizar seus planos.
+José: Tem 31 anos, trabalha como motorista de aplicativo e é solteiro. Ele gosta de jogar futebol com os amigos nos fins de semana. Sua principal motivação é montar um pequeno negócio para ter mais estabilidade financeira. José tem insegurança em relação a investir seu dinheiro de maneira eficiente e teme não conseguir juntar o suficiente para realizar seus planos.
 
-Júlia: Tem 22 anos e é nutricionista recém-formada, é solteira, mora com os pais e gosta de praticar yoga e meditação. Sua principal motivação é conseguir um emprego na sua área de atuação e ter independência financeira. Ela tem insegurança em relação a administrar seu dinheiro e tem medo de não conseguir se sustentar sozinha.
+Júlia: Tem 22 anos, é nutricionista recém-formada e mora com os pais. Ela é solteira e gosta de praticar yoga e meditação. Sua principal motivação é conseguir um emprego em sua área de atuação e ter independência financeira. Júlia tem insegurança em relação a administrar seu dinheiro e teme não conseguir se sustentar sozinha.
 
-João: Tem 35 anos e é gerente de vendas em uma empresa de tecnologia, é casado e tem dois filhos. Ele gosta de viajar com a família e praticar esportes ao ar livre.
-Sua principal motivação é garantir um futuro financeiro estável para sua família. Ele tem insegurança em relação a economizar dinheiro e investir de maneira eficiente para sua aposentadoria.
+João: Tem 35 anos, é gerente de vendas em uma empresa de tecnologia e é casado com dois filhos. Ele gosta de viajar com a família e praticar esportes ao ar livre. Sua principal motivação é garantir um futuro financeiro estável para sua família. João tem insegurança em relação a economizar dinheiro e investir de maneira eficiente para sua aposentadoria.
 
-Luciana: Tem 40 anos e é dona de casa e mãe de dois filhos. É casada e gosta de cozinhar e fazer artesanato. Ela é responsável por pagar as contas da casa e está sempre procurando maneiras de economizar dinheiro. Sua principal motivação é garantir que sua família tenha uma vida confortável e sem preocupações financeiras. Ela tem insegurança em relação a economizar dinheiro e fazer escolhas financeiras inteligentes.
+Luciana: Tem 40 anos, é dona de casa e mãe de dois filhos. É casada e gosta de cozinhar e fazer artesanato. Ela é responsável por pagar as contas da casa e está sempre procurando maneiras de economizar dinheiro. Sua principal motivação é garantir que sua família tenha uma vida confortável e sem preocupações financeiras. Luciana tem insegurança em relação a economizar dinheiro e fazer escolhas financeiras inteligentes.
 
-Ricardo: Tem 30 anos e trabalha como freelancer em tempo integral. É solteiro e gosta de tocar guitarra e sair com os amigos. Sua principal motivação é ter estabilidade financeira e conseguir pagar suas contas todos os meses. Ele tem insegurança em relação a gerenciar sua renda variável e tem medo de não conseguir se sustentar.
+Ricardo: Tem 30 anos, trabalha como freelancer em tempo integral e é solteiro. Ele gosta de tocar guitarra e sair com os amigos. Sua principal motivação é ter estabilidade financeira e conseguir pagar suas contas todos os meses. Ricardo tem insegurança em relação a gerenciar sua renda variável e teme não conseguir se sustentar.
 
-Mariana: Tem 28 anos e é recém-formada em direito. É solteira e gosta de ler livros e assistir filmes. Ela trabalha em um escritório de advocacia. Sua principal motivação é pagar seus empréstimos estudantis e ter mais liberdade financeira. Ela tem insegurança em relação a economizar dinheiro e fazer escolhas financeiras inteligentes.
+Mariana: Tem 28 anos, é recém-formada em direito e trabalha em um escritório de advocacia. É solteira e gosta de ler livros e assistir filmes. Sua principal motivação é pagar suas dívidas estudantis.
 
-Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os amigos. Ele vive com uma renda fixa limitada. Sua principal motivação é garantir que possa viver confortavelmente com sua renda fixa limitada. Ele tem insegurança em relação a gerenciar suas finanças e tem medo de não conseguir pagar suas contas todos os meses.
+Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os amigos. Carlos vive com uma renda fixa limitada e sua principal motivação é garantir que possa viver confortavelmente com sua renda. Ele tem insegurança em relação a gerenciar suas finanças e teme não conseguir pagar suas contas todos os meses.
 
 ## Histórias de Usuários
 
