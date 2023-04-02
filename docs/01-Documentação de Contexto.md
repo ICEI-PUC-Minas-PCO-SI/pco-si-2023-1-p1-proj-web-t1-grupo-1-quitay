@@ -1,6 +1,6 @@
 # Introdução
 
-O projeto consiste em auxiliar a população brasileira a lidar com suas contas e dívidas. Com base nisso entendemos que é imprescindível atender a essa necessidade, para isso criamos a Quitay que preoporcionará gerenciamento e priorização de gastos, através de ferramentas fornecidas por nossa aplicação. Com isso visamos atender todas as pessoas que tenham acesso a internet e que possuem interesse em melhorar a gestão das suas contas e dívidas. 
+O projeto consiste em auxiliar a população brasileira que vem a lidar com suas contas e dívidas.Com base nisso  é imprescindível atender a essa necessidade, a Quitay irá proporcionar o gerenciamento e priorização de gastos, através de ferramentas fornecidas por nossa aplicação, visando a atender todas as pessoas que tenham acesso a internet e que possuem interesse em melhorar a gestão das suas contas e dívidas. 
 
 ## Problema
 
@@ -10,8 +10,9 @@ Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulg
 
 ## Objetivos
 
-O objetivo inicial da aplicação Quitay é auxiliar e guiar os usuários no processo de priorização de contas, sendo este capaz de promover soluções para o público alvo, fornecendo meios de gerenciar suas finanças de forma eficiente e alcançar seus objetivos financeiros. 
-O objetivo final seria permitir que os usuários tomem melhores decisões financeiras e, assim, atinjam seus objetivos financeiros de maneira mais eficiente e com mais sucesso. 
+O objetivo inicial da aplicação Quitay é auxiliar e guiar os usuários no processo de priorização de contas, sendo capaz de promover soluções para o público alvo, fornecendo meios de gerenciar suas finanças com o compromisso,privacidade e proteção dos seus Dados Pessoais, além de estabelecer, de forma clara e transparente, sendo eficiente e alcançando seus objetivos financeiros.
+Assim o objetivo final da Quitay seria permitir que os usuários tomem melhores decisões financeiras e, assim, atinjam seus objetivos de maneira mais eficiente e com soluções inovadoras para suas finanças.  
+
 
 
 ## Justificativa
