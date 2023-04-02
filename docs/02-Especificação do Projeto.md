@@ -25,7 +25,7 @@ Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os a
 ## Histórias de Usuários
 
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO... | QUERO/PRECISO ... |PARA ...                 |
 |--------------------|------------------------------------|----------------------------------------|
 | Usuário: José, motorista de aplicativo, 31 anos e solteiro  | Dicas de investimento           | Montar um pequeno negócio e se estabilizar financeiramente  |
 | Usuário: Júlia, nutricionista, 22 anos, morando com os pais     | Saber quando e como usar o dinheiro    | Ter independência financeira para não depender dos pais |
