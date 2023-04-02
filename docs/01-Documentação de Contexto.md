@@ -6,23 +6,19 @@ O projeto consiste em auxiliar a população brasileira a lidar com suas contas 
 
 Existe uma relação entre a educação financeira no país e o endividamento das famílias? Quais são os fatores que influenciam a capacidade de quitar dívidas? Como as ferramentas que auxiliam no gerenciamento de contas e pagamentos afetam os usuários da internet? De acordo com a PEIC (Pesquisa de Endividamento e Inadimplência do Consumidor), divulgada em 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), o endividamento atingiu 77,9% das famílias brasileiras em 2022. 
 
-
 ## Objetivos
 
-O objetivo inicial da aplicação Quitay é auxiliar e guiar os usuários no processo de priorização de contas, sendo capaz de promover soluções para o público alvo, fornecendo meios de gerenciar suas finanças com o compromisso, privacidade e proteção dos seus dados pessoais, além de estabelecer, de forma clara e transparente, sendo eficiente e alcançando seus objetivos financeiros.
-
-Assim o objetivo final da Quitay será permitir que os usuários tomem decisões financeiras mais acertadas e atinjam seus objetivos de maneira eficiente, por meio de soluções inovadoras que otimizem suas finança.
-
+O objetivo da aplicação Quitay é auxiliar os usuários a priorizar suas contas e gerenciar suas finanças de forma eficiente, segura e transparente. Através de soluções inovadoras, a Quitay busca ajudar os usuários a tomar decisões financeiras acertadas e alcançar seus objetivos.
 
 ## Justificativa
 
-Com a maioria das famílias Brasileiras endividadas e com pouco conhecimento sobre educação financeira, a Quitay facilita o controle de contas, organiza seus pagamentos para que não tenha multa ou juros por atraso. Com uma gestão financeira simplificada e de fácil interpretação para o usuário, que não demande conhecimento sobre finanças.
-
+Devido ao alto índice de endividamento das famílias brasileiras e ao pagamento de multas e juros elevados decorrentes da falta de conhecimento sobre educação financeira, o uso da aplicação Quitay é justificado.
 
 ## Público-Alvo
 
 Temos como nosso público-alvo:
- Jovens e adultos: A Quitay tem como um dos seus principais públicos alvo a faixa etária de jovens entre 14 aos 17 anos que ja ganham seu dinheiro como jovem aprendiz, que podem estar interessados em recursos que os ajudem a controlar suas despesas algo que tem crescido disparadamente nos últimos anos e os adultos dos 18 aos 50 anos que já possuem um trabalho, a partir da classe social D, buscando criar orçamentos e economizar dinheiro para objetivos de curto e longo prazo. 
+ 
+Jovens e adultos: A Quitay tem como um dos seus principais públicos alvo a faixa etária de jovens entre 14 aos 17 anos que ja ganham seu dinheiro como jovem aprendiz, que podem estar interessados em recursos que os ajudem a controlar suas despesas algo que tem crescido disparadamente nos últimos anos e os adultos dos 18 aos 50 anos que já possuem um trabalho, a partir da classe social D, buscando criar orçamentos e economizar dinheiro para objetivos de curto e longo prazo. 
 
 Empreendedores: A Quitay também pode ser direcionada a empreendedores que estão gerenciando as finanças de seus negócios. Eles podem estar interessados em recursos para monitorar fluxo de caixa, rastrear despesas e receitas e gerenciar pagamentos a fornecedores e funcionários.
 
