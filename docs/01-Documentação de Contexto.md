@@ -4,15 +4,14 @@ O projeto consiste em auxiliar a população brasileira a lidar com suas contas 
 
 ## Problema
 
-Existe uma relação entre a educação financeira no país e o endividamento? Quais são os fatores que determinam como quitar suas dívidas? Quais os efeitos de ferramentas que auxiliam no pagamento de suas contas sobre os usuários da internet?
-Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulgada no dia 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), o endividamento atingiu 77,9% das famílias brasileiras em 2022. Sabendo disso compreende-se que é de extrema carência ferramentas que indiquem a essas famílias caminhos que irão auxiliá-las a deixar essa margem dos endividados.
+Existe uma relação entre a educação financeira no país e o endividamento das famílias? Quais são os fatores que influenciam a capacidade de quitar dívidas? Como as ferramentas que auxiliam no gerenciamento de contas e pagamentos afetam os usuários da internet? De acordo com a PEIC (Pesquisa de Endividamento e Inadimplência do Consumidor), divulgada em 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), o endividamento atingiu 77,9% das famílias brasileiras em 2022. 
 
 
 ## Objetivos
 
-O objetivo inicial da aplicação Quitay é auxiliar e guiar os usuários no processo de priorização de contas, sendo capaz de promover soluções para o público alvo, fornecendo meios de gerenciar suas finanças com o compromisso,privacidade e proteção dos seus dados pessoais, além de estabelecer, de forma clara e transparente, sendo eficiente e alcançando seus objetivos financeiros.
+O objetivo inicial da aplicação Quitay é auxiliar e guiar os usuários no processo de priorização de contas, sendo capaz de promover soluções para o público alvo, fornecendo meios de gerenciar suas finanças com o compromisso, privacidade e proteção dos seus dados pessoais, além de estabelecer, de forma clara e transparente, sendo eficiente e alcançando seus objetivos financeiros.
 
-Assim o objetivo final da Quitay será permitir que os usuários tomem decisões financeiras mais acertadas e atinjam seus objetivos de maneira eficiente, por meio de soluções inovadoras que otimizem suas finança
+Assim o objetivo final da Quitay será permitir que os usuários tomem decisões financeiras mais acertadas e atinjam seus objetivos de maneira eficiente, por meio de soluções inovadoras que otimizem suas finança.
 
 
 ## Justificativa
