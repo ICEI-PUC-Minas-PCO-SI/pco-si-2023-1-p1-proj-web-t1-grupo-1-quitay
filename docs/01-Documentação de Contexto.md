@@ -11,8 +11,8 @@ Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulg
 ## Objetivos
 
 O objetivo inicial da aplicação Quitay é auxiliar e guiar os usuários no processo de priorização de contas, sendo capaz de promover soluções para o público alvo, fornecendo meios de gerenciar suas finanças com o compromisso,privacidade e proteção dos seus Dados Pessoais, além de estabelecer, de forma clara e transparente, sendo eficiente e alcançando seus objetivos financeiros.
-Assim o objetivo final da Quitay seria permitir que os usuários tomem melhores decisões financeiras e, assim, atinjam seus objetivos de maneira mais eficiente e com soluções inovadoras para suas finanças.  
 
+Assim o objetivo final da Quitay seria permitir que os usuários tomem melhores decisões financeiras e, assim, atinjam seus objetivos de maneira mais eficiente e com soluções inovadoras para suas finanças.  
 
 
 ## Justificativa
