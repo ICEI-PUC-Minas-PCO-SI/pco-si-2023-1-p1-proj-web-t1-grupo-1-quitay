@@ -62,14 +62,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos não Funcionais
 
-|ID       | Descrição do Requisito  |Prioridade | Responsável |
+|ID       | Descrição do Requisito  |Prioridade | 
 |---------|--------------------------------|---------|
-| RNF-001 | Usabilidade: a aplicação não deve ser difícil de usar e deve ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade. | MEDIA | Bruna |
+| RNF-001 | Usabilidade: a aplicação não deve ser difícil de usar e deve ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade. | MEDIA | 
 | RNF-002 | Segurança: a aplicação não deve ser insegura e não deve expor os dados pessoais dos usuários, incluindo senhas e informações financeiras.
-| ALTA | Bruna |
-| RNF-003 | Escalabilidade: a aplicação não deve ser limitada em escalabilidade, permitindo que suporte um grande número de usuários e cresça com o tempo. | MEDIA | Bruna |
-| RNF-004 | Confiabilidade: a aplicação não deve ser pouco confiável e instável, permitindo erros e falhas que possam levar à perda de dados. | ALTA | Bruna |
-| RNF-005 | Documentação: a aplicação não deve ter uma documentação pouco clara e detalhada, dificultando para os usuários entender como usá-la e solucionar problemas. | MEDIA | Bruna |
+| ALTA | 
+| RNF-003 | Escalabilidade: a aplicação não deve ser limitada em escalabilidade, permitindo que suporte um grande número de usuários e cresça com o tempo. | MEDIA |
+| RNF-004 | Confiabilidade: a aplicação não deve ser pouco confiável e instável, permitindo erros e falhas que possam levar à perda de dados. | ALTA |
+| RNF-005 | Documentação: a aplicação não deve ter uma documentação pouco clara e detalhada, dificultando para os usuários entender como usá-la e solucionar problemas. | MEDIA |
 
 
 ## Restrições
