@@ -24,7 +24,6 @@ Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os a
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
@@ -37,9 +36,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 | Usuário: Carlos, aposentado com renda fixa limitada, 50 anos | Gerenciar finanças | Viver confortavelmente com renda fixa|
 
 
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+## Requisitos.
 
 ### Requisitos Funcionais
 
