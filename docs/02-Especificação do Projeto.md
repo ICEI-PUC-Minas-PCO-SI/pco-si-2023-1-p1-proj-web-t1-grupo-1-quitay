@@ -51,7 +51,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 | RF-002 | A aplicação deve permitir que o usuário altere sua senha | ALTA | Kerley |
 | RF-003 | A aplicação deve permitir que o usuário altere seus dados de cadastro | ALTA | Kerley |
 | RF-004 | A aplicação deve permitir que o usuário cadastre suas despesas | ALTA |   -    |
-| RF-005 | A aplicação deve permitir que o usuário cadastre seus rendimnetos | ALTA |   -   |
+| RF-005 | A aplicação deve permitir que o usuário cadastre seus rendimentos | ALTA |   -   |
 | RF-006 | A aplicação deve permitir que o usuário crie categorias de despesas, como alimentação, transporte, moradia, lazer, entre outras. | MEDIA |   -   |
 | RF-007 | A aplicação deve permitir que o usuário estabeleça limites para cada categoria de despesa e receber alertas quando o limite for atingido ou ultrapassado | MEDIA |   -   |
 | RF-008 | A aplicação deve permitir acesso a sugestões de como economizar dinheiro em cada categoria de despesa. | MEDIA |   -   |
