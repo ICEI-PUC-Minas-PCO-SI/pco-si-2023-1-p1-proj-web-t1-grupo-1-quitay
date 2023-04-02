@@ -36,7 +36,7 @@ Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os a
 | Usuário: Carlos, aposentado com renda fixa limitada, 50 anos | Gerenciar finanças | Viver confortavelmente com renda fixa|
 
 
-## Requisitos.
+## Requisitos
 
 ### Requisitos Funcionais
 
@@ -68,7 +68,6 @@ Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os a
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
