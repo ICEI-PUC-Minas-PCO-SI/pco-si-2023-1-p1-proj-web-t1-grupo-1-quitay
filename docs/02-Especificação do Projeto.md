@@ -2,24 +2,27 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-A Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com os seus boletos pendentes. Através de uma interface intuitiva é possível que o usuário insira suas informações financeiras e receba sugestões personalizadas com o seu problema, por exemplo: como evitar multas e juros por atrasos de pagamento, como ecomizar seu dinheiro e qual conta priorizar. 
+A Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com seus boletos pendentes. Através de uma interface intuitiva, o usuário pode inserir suas informações financeiras e receber sugestões personalizadas para seus problemas, como evitar multas e juros por atrasos de pagamento, economizar dinheiro e priorizar contas.
+
+Este projeto utiliza tecnologias modernas e eficientes para garantir a melhor experiência do usuário. No front-end, HTML, CSS e Javascript são usados para criar uma interface intuitiva e agradável. No back-end, Javascript e o CRUD JSON Server são usados para gerenciar os dados e garantir a segurança e confiabilidade do sistema.
 
 ## Personas
 
-José tem 31 anos, é motorista de aplicativo. Pensa em montar um pequeno negócio e está trabalhando em jornada dupla para juntar dinheiro. Precisa de auxílio para investir melhor seus rendimentos. 
+José: Tem 31 anos e trabalha como motorista de aplicativo, é solteiro e gosta de jogar futebol com os amigos nos fins de semana.
+Sua principal motivação é montar um pequeno negócio e ter mais estabilidade financeira. Ele tem insegurança em relação a investir seu dinheiro de maneira eficiente e tem medo de não conseguir juntar o suficiente para realizar seus planos.
 
-Júlia tem 22 anos, é nutricionista recém-formada, desempregada e mora com os pais. Está pensando em mudar de cidade para iniciar em um novo trabalho, mas tem receio de não conseguir administrar o dinheiro. 
+Júlia: Tem 22 anos e é nutricionista recém-formada, é solteira, mora com os pais e gosta de praticar yoga e meditação. Sua principal motivação é conseguir um emprego na sua área de atuação e ter independência financeira. Ela tem insegurança em relação a administrar seu dinheiro e tem medo de não conseguir se sustentar sozinha.
 
-João, 35 anos, gerente de vendas em uma empresa de tecnologia. Ele ganha um bom salário e tem uma família para sustentar. Ele está procurando maneiras de economizar dinheiro e investir em sua aposentadoria.
+João: Tem 35 anos e é gerente de vendas em uma empresa de tecnologia, é casado e tem dois filhos. Ele gosta de viajar com a família e praticar esportes ao ar livre.
+Sua principal motivação é garantir um futuro financeiro estável para sua família. Ele tem insegurança em relação a economizar dinheiro e investir de maneira eficiente para sua aposentadoria.
 
-Luciana, 40 anos, dona de casa e mãe de dois filhos. Ela é responsável por pagar as contas da casa e está sempre procurando maneiras de economizar dinheiro.
+Luciana: Tem 40 anos e é dona de casa e mãe de dois filhos. É casada e gosta de cozinhar e fazer artesanato. Ela é responsável por pagar as contas da casa e está sempre procurando maneiras de economizar dinheiro. Sua principal motivação é garantir que sua família tenha uma vida confortável e sem preocupações financeiras. Ela tem insegurança em relação a economizar dinheiro e fazer escolhas financeiras inteligentes.
 
-Ricardo, 30 anos, freelancer em tempo integral. Ele tem uma renda variável e precisa gerenciar suas finanças com cuidado para garantir que possa pagar suas contas todos os meses.
+Ricardo: Tem 30 anos e trabalha como freelancer em tempo integral. É solteiro e gosta de tocar guitarra e sair com os amigos. Sua principal motivação é ter estabilidade financeira e conseguir pagar suas contas todos os meses. Ele tem insegurança em relação a gerenciar sua renda variável e tem medo de não conseguir se sustentar.
 
-Mariana, 28 anos, recém-formada em direito e trabalhando em um escritório de advocacia. Ela está procurando maneiras de economizar dinheiro para pagar seus empréstimos estudantis.
+Mariana: Tem 28 anos e é recém-formada em direito. É solteira e gosta de ler livros e assistir filmes. Ela trabalha em um escritório de advocacia. Sua principal motivação é pagar seus empréstimos estudantis e ter mais liberdade financeira. Ela tem insegurança em relação a economizar dinheiro e fazer escolhas financeiras inteligentes.
 
-Carlos, 50 anos, aposentado e vivendo com uma renda fixa limitada. Ele precisa gerenciar suas finanças com cuidado para garantir que possa pagar suas contas todos os meses.
-
+Carlos: Tem 50 anos e é aposentado. Ele gosta de pescar e jogar cartas com os amigos. Ele vive com uma renda fixa limitada. Sua principal motivação é garantir que possa viver confortavelmente com sua renda fixa limitada. Ele tem insegurança em relação a gerenciar suas finanças e tem medo de não conseguir pagar suas contas todos os meses.
 
 ## Histórias de Usuários
 
@@ -27,13 +30,13 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Motorista de aplicativo  | Dicas de investimento           | Melhoras os rendimentos               |
-|Nutricionista, mora com os pais     | Saber quando e como usar o dinheiro    | Mudar de cidade, morar sozinha |
-|Gerente de vendas | Dicas de economia | Investir em sua aposentadoria |
-|Dona de casa, mãe de 2 filhos | Formas de pagar as contas| Economizar dinheiro |
-|Free lancer em tempo integral | Gerenciar investimentos | Pagar as contas |
-| Recém formada em direito | Maneiras de economizar dinheiro | Pagar empréstimos estudantis |
-| Aposentado com renda fixa limitada | Gerenciar finanças | Pagar as contas|
+| Usuário: José, motorista de aplicativo, 31 anos e solteiro  | Dicas de investimento           | Montar um pequeno negócio e se estabilizar financeiramente  |
+| Usuário: Júlia, nutricionista, 22 anos, morando com os pais     | Saber quando e como usar o dinheiro    | Ter independência financeira para não depender dos pais |
+| Usuário: João, gerente de vendas, 35 anos, casado e com 2 filhos | Dicas de economia | Garantir um futuro financeiro estável para a sua família |
+| Usuário: Luciana, dona de casa, 40 anos e mãe de 2 filhos | Formas de pagar as contas| Trazer conforte para a família e não ter preocupações financeiras |
+| Usuário: Ricardo, free lancer em tempo integral, 30 anos e solteiro | Gerenciar investimentos | Estabilidade financeira, pagar as contas |
+| Usuário: Mariana, recém formada em direito, 28 anos e solteira | Maneiras de economizar dinheiro | Pagar empréstimos estudantis, liberdade financeira|
+| Usuário: Carlos, aposentado com renda fixa limitada, 50 anos | Gerenciar finanças | Viver confortavelmente com renda fixa|
 
 
 ## Requisitos
@@ -42,30 +45,30 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 ### Requisitos Funcionais
 
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-RF-001 | Permitir que o usuário cadastre seu usuário | ALTA
-RF-002 | Permitir que o usuário altere sua senha | ALTA
-RF-003 | Permitir que o usuário altere seus dados de cadastro | ALTA
-RF-004 | Permitir que o usuário cadastre suas despesas | ALTA
-RF-005 | Permitir que o usuário cadastre seus rendimnetos | ALTA
-RF-006 | Permitir que o usuário crie categorias de despesas, como alimentação, transporte, moradia, lazer, entre outras. | MEDIA
-RF-007 | permitir que o usuário estabeleça limites para cada categoria de despesa e receber alertas quando o limite for atingido ou ultrapassado | MEDIA
-RF-008 | Permitir acesso a sugestões de como economizar dinheiro em cada categoria de despesa. | MEDIA
-RF-009 | permitir que o usuário crie metas de economia para cada categoria de despesa | MEDIA
-RF-010 | Emitir um relatório de gastos e despesas | MEDIA
-RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicando quais são as mais importantes | MEDIA
+|ID      | Descrição do Requisito  | Prioridade | Responsável |
+|--------|-----------------------------------------|------|-----------|
+| RF-001 | A aplicação deve permitir que o usuário cadastre sua conta | ALTA | Kerley |
+| RF-002 | A aplicação deve permitir que o usuário altere sua senha | ALTA | Kerley |
+| RF-003 | A aplicação deve permitir que o usuário altere seus dados de cadastro | ALTA | Kerley |
+| RF-004 | A aplicação deve permitir que o usuário cadastre suas despesas | ALTA |   -    |
+| RF-005 | A aplicação deve permitir que o usuário cadastre seus rendimnetos | ALTA |   -   |
+| RF-006 | A aplicação deve permitir que o usuário crie categorias de despesas, como alimentação, transporte, moradia, lazer, entre outras. | MEDIA |   -   |
+| RF-007 | A aplicação deve permitir que o usuário estabeleça limites para cada categoria de despesa e receber alertas quando o limite for atingido ou ultrapassado | MEDIA |   -   |
+| RF-008 | A aplicação deve permitir acesso a sugestões de como economizar dinheiro em cada categoria de despesa. | MEDIA |   -   |
+| RF-009 | A aplicação deve permitir que o usuário crie metas de economia para cada categoria de despesa | MEDIA |   -   |
+| RF-010 | Emitir um relatório de gastos e despesas | MEDIA | Kerley |   -   |
+| RF-011 | Permitir que o usuário defina prioridades para suas despesas, indicando quais são as mais importantes | MEDIA |   -   |
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|--------------------------------|----|
-|RNF-001 | Usabilidade: a aplicação deve ser fácil de usar e ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade | MEDIA|
-|RNF-002 | Segurança: a aplicação deve ser segura e proteger os dados pessoais dos usuários, incluindo senhas e informações financeiras | ALTA|
-|RNF-003 | Escalabilidade: a aplicação deve ser escalável, permitindo que suporte um grande número de usuários e cresça com o tempo | MEDIA|
-|RNF-004 | Confiabilidade: a aplicação deve ser confiável e estável, evitando erros e falhas que possam levar à perda de dados | ALTA|
-|RNF-005 | Documentação: a aplicação deve ter uma documentação clara e detalhada, para que os usuários possam entender como usá-la e solucionar problemas | MEDIA|
+|ID       | Descrição do Requisito  |Prioridade |
+|---------|--------------------------------|---------|
+| RNF-001 | Usabilidade: a aplicação deve ser fácil de usar e ter uma interface intuitiva para que os usuários possam gerenciar suas finanças com facilidade | MEDIA|
+| RNF-002 | Segurança: a aplicação deve ser segura e proteger os dados pessoais dos usuários, incluindo senhas e informações financeiras | ALTA|
+| RNF-003 | Escalabilidade: a aplicação deve ser escalável, permitindo que suporte um grande número de usuários e cresça com o tempo | MEDIA|
+| RNF-004 | Confiabilidade: a aplicação deve ser confiável e estável, evitando erros e falhas que possam levar à perda de dados | ALTA|
+| RNF-005 | Documentação: a aplicação deve ter uma documentação clara e detalhada, para que os usuários possam entender como usá-la e solucionar problemas | MEDIA|
 
 
 ## Restrições
