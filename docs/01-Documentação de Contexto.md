@@ -5,7 +5,7 @@ O projeto consiste em auxiliar a população brasileira a lidar com suas contas 
 ## Problema
 
 Existe uma relação entre a educação financeira no país e o endividamento? Quais são os fatores que determinam como quitar suas dívidas? Quais os efeitos de ferramentas que auxiliam no pagamento de suas contas sobre os usuários da internet?
-Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulgada no dia 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), o endividamento atingiu 77,9% das famílias brasileiras em 2022. Sabendo disso compreendemos que é de extrema carência ferramentas que indicam a essas famílias caminhos que irão auxiliá-los a deixar essa margem dos endividados.
+Segundo a Peic (Pesquisa de Endividamento e Inadimplência do Consumidor) divulgada no dia 19 de janeiro de 2023 pela CNC (Confederação Nacional do Comércio de Bens, Serviços e Turismo), o endividamento atingiu 77,9% das famílias brasileiras em 2022. Sabendo disso compreende-se que é de extrema carência ferramentas que indiquem a essas famílias caminhos que irão auxiliá-las a deixar essa margem dos endividados.
 
 
 ## Objetivos
