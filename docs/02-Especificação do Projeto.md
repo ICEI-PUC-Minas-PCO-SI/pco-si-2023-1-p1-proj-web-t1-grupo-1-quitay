@@ -1,7 +1,5 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
-
 A Quitay é uma aplicação Web que ajuda as pessoas a gerenciar suas finanças e lidar com seus boletos pendentes. Através de uma interface intuitiva, o usuário pode inserir suas informações financeiras e receber sugestões personalizadas para seus problemas, como evitar multas e juros por atrasos de pagamento, economizar dinheiro e priorizar contas.
 
 Este projeto utiliza tecnologias modernas e eficientes para garantir a melhor experiência do usuário. No front-end, HTML, CSS e Javascript são usados para criar uma interface intuitiva e agradável. No back-end, Javascript e o CRUD JSON Server são usados para gerenciar os dados e garantir a segurança e confiabilidade do sistema.
