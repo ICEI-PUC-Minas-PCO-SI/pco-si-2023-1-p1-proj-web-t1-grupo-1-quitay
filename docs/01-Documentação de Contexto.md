@@ -1,6 +1,6 @@
 # Introdução
 
-O projeto consiste em auxiliar a população brasileira que vem a lidar com suas contas e dívidas. Com base nisso  é imprescindível atender a essa necessidade, a Quitay irá proporcionar o gerenciamento e priorização de gastos, através de ferramentas fornecidas por nossa aplicação, visando a atender todas as pessoas que tenham acesso a internet e que possuem interesse em melhorar a gestão das suas contas e dívidas. 
+O projeto consiste em auxiliar a população brasileira a lidar com suas contas e dívidas. Com base nisso, é imprescindível atender a essa necessidade. A Quitay irá proporcionar o gerenciamento e priorização de gastos por meio de ferramentas fornecidas pela aplicação, visando atender todas as pessoas que tenham acesso à internet e que possuam interesse em melhorar a gestão de suas contas e dívidas.
 
 ## Problema
 
