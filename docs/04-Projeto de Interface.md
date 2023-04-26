@@ -30,7 +30,7 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 Na página inicial, você encontrará nossa logomarca e poderá acessar o menu de opções na lateral superior direita, além dos botões "Cadastro" e "Quem somos".
 
 **Quem somos**
-O usuário terá uma noção sobre a aplicação e o intuito dela.
+Nessa seção, você poderá entender melhor sobre a aplicação e seu propósito.
 
 **Perfil (Criação)**
 Tela de cadastro do usuário na aplicação.
