@@ -36,7 +36,7 @@ Nessa seção, você poderá entender melhor sobre a aplicação e seu propósit
 Tela de cadastro do usuário na aplicação.
 
 **Cadastro da conta**
-Tela de cadastro das contas a serem priorizadas.
+Essa é a tela onde você poderá cadastrar suas contas e priorizá-las.
 
 **Tela de relatório 1**
 Tela das contas cadastradas calculado os juros.
