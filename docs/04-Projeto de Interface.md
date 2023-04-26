@@ -6,7 +6,9 @@ Para a realização do wireframe e do user flow, foi utilizado o software Figma,
 
 ## User Flow
 
-![User Flow Quitay Mobile](https://user-images.githubusercontent.com/64965197/234720384-c62ee1da-e0da-4a2c-95e5-e38914f57ce0.png)
+
+![User Flow Quitay Mobile](https://user-images.githubusercontent.com/64965197/234720563-793271c0-640f-45f8-a8ef-fc608b2a14bb.png)
+
 
 
 ## Wireframes
