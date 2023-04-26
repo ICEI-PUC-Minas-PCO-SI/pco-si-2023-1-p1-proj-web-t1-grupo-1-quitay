@@ -22,3 +22,24 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 ## Wireframes
 
 ![Wireframe Quitay Mobile](https://user-images.githubusercontent.com/64965197/234714416-9e58de5f-461a-462d-a133-b2daf5cf87ae.png)
+
+**Página inicial**
+Onde o usuário verá nossa Logo marca e poderá escolher entre o nosso menu de acessos a lateral superior direita e aos dois botões “Cadastro” e “Quem somos”.
+
+**Quem somos**
+O usuário terá uma noção sobre a aplicação e o intuito dela.
+
+**Perfil (Criação)**
+Tela de cadastro do usuário na aplicação.
+
+**Cadastro da conta**
+Tela de cadastro das contas a serem priorizadas.
+
+**Tela de relatório 1**
+Tela das contas cadastradas calculado os juros.
+
+**Tela de relatório 2**
+Tela de cadastro com sugestão de como as contas poderão ser priorizadas.
+
+**Tela de relatório 3**
+Relatório final.
