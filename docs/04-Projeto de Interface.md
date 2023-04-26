@@ -39,7 +39,7 @@ Tela de cadastro do usuário na aplicação.
 Essa é a tela onde você poderá cadastrar suas contas e priorizá-las.
 
 **Tela de relatório 1**
-Tela das contas cadastradas calculado os juros.
+Tela das contas cadastradas calculando os juros.
 
 **Tela de relatório 2**
 Tela de cadastro com sugestão de como as contas poderão ser priorizadas.
