@@ -1,7 +1,6 @@
 
 # Projeto de Interface
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
 Para a realização do wireframe e do user flow, foi utilizado o software Figma, uma ferramenta de design de interface que permitiu a representação visual das futuras funcionalidades do projeto, bem como as interações entre elas, proporcionando um melhor entendimento do fluxo de uso para o desenvolvimento da aplicação.
 
