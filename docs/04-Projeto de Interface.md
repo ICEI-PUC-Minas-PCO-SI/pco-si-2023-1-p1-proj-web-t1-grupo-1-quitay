@@ -21,6 +21,9 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 ## Wireframes
 
+![Wireframe Quitay PC](https://user-images.githubusercontent.com/64965197/234716367-bd460656-c662-4a2e-8f89-af4c6a98f4cd.png)
+
+
 ![Wireframe Quitay Mobile](https://user-images.githubusercontent.com/64965197/234714416-9e58de5f-461a-462d-a133-b2daf5cf87ae.png)
 
 **Página inicial**
