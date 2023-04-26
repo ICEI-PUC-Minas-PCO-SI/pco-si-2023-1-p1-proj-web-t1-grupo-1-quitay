@@ -10,13 +10,6 @@ Para a realização do wireframe e do user flow, foi utilizado o software Figma,
 ![Exemplo de UserFlow](img/userflow.jpg)
 
 
-
-> **Links Úteis**:
-> - [User Flow: O Quê É e Como Fazer?](https://medium.com/7bits/fluxo-de-usu%C3%A1rio-user-flow-o-que-%C3%A9-como-fazer-79d965872534)
-> - [User Flow vs Site Maps](http://designr.com.br/sitemap-e-user-flow-quais-as-diferencas-e-quando-usar-cada-um/)
-> - [Top 25 User Flow Tools & Templates for Smooth](https://www.mockplus.com/blog/post/user-flow-tools)
-
-
 ## Wireframes
 
 ![Wireframe Quitay PC](https://user-images.githubusercontent.com/64965197/234716367-bd460656-c662-4a2e-8f89-af4c6a98f4cd.png)
