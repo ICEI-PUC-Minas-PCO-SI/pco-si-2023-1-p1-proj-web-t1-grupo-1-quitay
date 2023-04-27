@@ -11,7 +11,7 @@ Para a realização do wireframe e do user flow, foi utilizado o software Figma,
 
 <ol> 1.0 - Botão "Quem somos": Levará o usuário a uma breve explicação sobre a empresa.</ol>
 <ol>1.01 - Botão "Página inicial": Permitirá ao usuário voltar para o início do site. </ol>
-<ol>1.1 - Botão "Cadastro": Será aberta uma tela para que os dados do usuário sejam inseridos e, assim, possa ser criado o seu login. </ol>
+<ol> 1.1 - Botão "Cadastro": Será aberta uma tela para que os dados do usuário sejam inseridos e, assim, possa ser criado o seu login. </ol>
 <ol>1.11 - Botão "Cadastrar": O perfil do usuário será criado com sucesso, caso os dados inseridos estejam corretos. </ol>
 <ol>1.12 - Botão "Próximo": O usuário será direcionado para a página de cadastro de contas. </ol>
 <ol>1.21 - Botão "Outra conta": Permitirá ao usuário voltar para o seu perfil e ter a opção de cadastrar uma nova conta. </ol>
