@@ -24,8 +24,7 @@ Para a realização do wireframe e do user flow, foi utilizado o software Figma,
 
 ![Wireframe Quitay PC](https://user-images.githubusercontent.com/64965197/234721139-962315a3-a922-4079-8698-5986c623bc89.png)
 
-
-![Wireframe Quitay Mobile](https://user-images.githubusercontent.com/64965197/234714416-9e58de5f-461a-462d-a133-b2daf5cf87ae.png)
+![Wireframe](https://github.com/ICEI-PUC-Minas-PCO-SI/pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay/assets/64965197/0882fd5b-31ae-4394-b1e8-6bf3134c5eaf)
 
 **Página inicial**
 Na página inicial, você encontrará nossa logomarca e poderá acessar o menu de opções na lateral superior direita, além dos botões "Cadastro" e "Quem somos".
