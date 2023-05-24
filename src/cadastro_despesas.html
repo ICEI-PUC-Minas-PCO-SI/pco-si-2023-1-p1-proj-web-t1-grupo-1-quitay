@@ -24,35 +24,37 @@
 
     <!--Mesma class usado por Kerley para fazer a tela de login, mantendo o padrão-->
     <div class="login_card">
-        <img src="xxxxxxxxxx">
-        <br>
-        <br>
-        <br>
+        <img src="logotemp.jpeg">
 
         <form>
             <!--Textbox do salário-->
             <div class="form-group">
-                <input type="number" class="form-control" id="salario" placeholder="Salário (Ganho mensal)">
+                <center><label>Informe seu salário</label></center>
+                <input type="number" class="form-control" id="salario" placeholder="Valor do salário">
                 <br>
             </div>
             <!--Textbox dos gastos-->
             <div class="form-group" id="gastosform">
+                <center><label>Informe seus gastos</label></center>
                 <input type="number" class="form-control" id="gasto1" placeholder="Valor do gasto">
             </div>
             <br>
             <!--Botão adiciona campo dos gastos-->
             <button type="button" id="botaoaddcampo">Adicionar gastos</button>
-            
+
             <br>
             <br>
             <div class="form-group">
                 <!--Adiconar ref tela inicial-->
-                <a href="home.html" class="btn btn-quitay">Página inicial</a>
-                <a href="home.html" class="btn btn-quitay">Cadastrar</a>
+                <center>
+                    <a href="home.html" class="btn btn-quitay">Página inicial</a>
+                    <a href="home.html" class="btn btn-quitay">Cadastrar</a>
+                </center>
             </div>
         </form>
     </div>
 </body>
+
 <!--Script JQuery do botão de adicionar campos-->
 <script>
     $("#botaoaddcampo").on("click", function () {
