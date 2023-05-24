@@ -8,8 +8,14 @@
     font-family: "Poppins", sans-serif;
 }
 
+.tela-cadastro{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+}
+
 body{
-    background-color: #1db40f;
+    background-image: linear-gradient(50deg, #1db40f, #0d4b9d) ;
     color: black;
     font-weight: 500;
     min-height: 100vh;
@@ -24,7 +30,7 @@ main{
 
 main h1 {
     color: black;
-    font-size: 5rem;
+    font-size: 3rem;
     margin-bottom: 3rem;
 }
 
@@ -40,7 +46,7 @@ main form label {
 }
 
 main form label span {
-    font-size: 1.6rem;
+    font-size: 1.3rem;
     margin-top: 0.4rem;
 }
 
@@ -59,22 +65,18 @@ main form input {
 
 main form input[type="submit"] {
     cursor: pointer;
-    width: 50%;
-    margin-top: 3rem;
+    width: 40%;
+    margin-top: 2rem;
     border: none;
-    border-radius: 32px;
+    border-radius: 30px;
     background-color: #0d4b9d;
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     transition: all .3s ease-in-out;
 }
 
 main form input[type="submit"]:hover {
     background-color: blue;
+
 }
 
-aside {
-    display: flex;
-    margin-top: 5rem;
-    padding: 1rem;
-}

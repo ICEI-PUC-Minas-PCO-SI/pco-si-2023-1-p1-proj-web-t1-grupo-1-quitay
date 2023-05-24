@@ -5,12 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de Investimentos</title>
-    <link rel="stylesheet" href="stylesamuel.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body> 
     <!--Cabeçalho-->
     <header>
-        <nav class="caixa-menuprincipal">
+        <nav class="menuprincipal">
             <ul>
                 <li><a href="#">Página Inicial</a></li>
                 <li><a href="#">Quem</a></li>
@@ -25,55 +25,38 @@
 
     <!--Conteúdo do Site-->
     <main>
+        <div class="tela-cadastro">
         <h1>Cadastro de Investimentos</h1>
-
+<br>
         <form action="">
             <label for="conta">
                 <span>Tipo de conta</span>
-                <input type="text" id="conta" name="conta">
+                <input type="text" placeholder="Tipo de conta" id="conta" name="conta">
             </label>
 
             <label for="empresa">
                 <span>Nome da empresa</span>
-                <input type="empresa" id="empresa" name="empresa">
+                <input type="empresa" placeholder="Nome da empresa" id="empresa" name="empresa">
             </label>
 
             <label for="valor">
                 <span>valor em R$</span>
-                <input type="valor" id="valor" name="valor">
+                <input type="valor" placeholder="Valor em R$" id="valor" name="valor">
             </label>
 
             <label for="juros">
-                <span>juros R$</span>
-                <input type="juros" id="juros" name="juros">
+                <span>juros %</span>
+                <input type="juros" placeholder="Juros %" id="juros" name="juros">
             </label>
 
             <input type="submit" value="Outra conta">
+            <input type="submit" value="Cadastrar">
         </form>
+    </div>
     </main>
 
-<!--Barra Lateral-->
-<aside>
-<div class="Empresa">
-    <h2 class="título">Empresa</h2>
-    <ul>
-        <li><a href="#">Sobre Nós</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Eventos</a></li>
-        <li><a href="#">Trabalhe Conosco</a></li>
-    </ul>
-</div>
-<div class="redesocial">
-<h2 class="título">Rede Social</h2>
-</div>
+<br></br><br></br>
+<br></br>
 
-<div class="contato">
-    <h2 class="título">Contato</h2>
-    <ul>
-        <li><a href="#">Quitay@gmail.com</a></li>
-        <li><b>4002-8922</b></li>
-    </ul>
-</div>
-</aside>
 </body>
 </html>
