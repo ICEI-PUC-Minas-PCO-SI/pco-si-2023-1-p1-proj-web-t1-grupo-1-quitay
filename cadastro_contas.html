@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="login.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+
+    <title>Cadastro de despesas</title>
+</head>
+
+<body>
+
+    <!--Mesma class usado por Kerley para fazer a tela de login, mantendo o padrão-->
+    <div class="login_card">
+        <img src="logotemp.jpeg">
+        <br>
+        <div class="form-group">
+            <center>
+                <label>Cadastro de contas</label>
+            </center>
+        </div>
+        <form>
+            <!--Textbox da conta-->
+            <div class="form-group">
+                <input type="text" class="form-control" id="contatipo" placeholder="Conta (tipo)">
+            </div>
+
+            <!--Textbox nome da empresa-->
+            <div class="form-group">
+                <input type="text" class="form-control" id="nomemepresa" placeholder="Nome da empresa">
+            </div>
+
+            <!--Textbox valor-->
+            <div class="form-group">
+                <input type="number" class="form-control" id="valor" placeholder="Valor - R$">
+            </div>
+
+            <!--Textbox juros-->
+            <div class="form-group">
+                <input type="number" class="form-control" id="juros" placeholder="Juros R$ / %">
+            </div>
+            <br>
+            <br>
+            <div class="form-group">
+                <!--Adiconar ref tela inicial-->
+                <center>
+                    <a href="home.html" class="btn btn-quitay">Outra conta</a>
+                    <a href="home.html" class="btn btn-quitay">Cadastrar</a>
+                </center>
+            </div>
+        </form>
+    </div>
+</body>
+
+
+</html>
