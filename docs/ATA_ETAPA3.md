@@ -14,4 +14,4 @@ Samuel da Silva
 - Criou a Página de Cadastro de investimentos;
 
 Sandy Costa
-- Alterou o Wireframe seguindo instruções do professor e e deu suporte nas páginas do Lucas, Pedro, Samuel e da Bruna; 
+- Alterou o Wireframe seguindo instruções do professor e deu suporte nas páginas do Lucas, Pedro, Samuel e da Bruna; 
