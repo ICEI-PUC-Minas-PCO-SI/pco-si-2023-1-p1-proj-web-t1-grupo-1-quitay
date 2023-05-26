@@ -11,8 +11,8 @@ Pedro Arley Paes
 - Criou a Página de Cadastro de despesas e deu suporte nas páginas do Samuel e da Bruna;
 
 Samuel da Silva
-Criou a Página de Cadastro de investimentos;
+- Criou a Página de Cadastro de investimentos;
 
 Sandy Costa
-Alterou o Wireframe seguindo instruções do professor e e deu suporte nas páginas do Lucas, Pedro, Samuel e da Bruna; 
+- Alterou o Wireframe seguindo instruções do professor e e deu suporte nas páginas do Lucas, Pedro, Samuel e da Bruna; 
 
