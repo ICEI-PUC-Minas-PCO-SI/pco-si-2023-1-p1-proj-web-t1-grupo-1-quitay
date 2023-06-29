@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>PIZZA GRÁFICO</title>
+  <link href="https://playground.anychart.com/docs/samples/BCT_3D_Pie_Chart/iframe" rel="canonical">
+  <meta content="3D Chart,3D Pie Chart,Pie Chart" name="keywords">
+  <meta content="AnyChart - JavaScript Charts designed to be embedded and integrated" name="description">
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+  <link href="https://cdn.anychart.com/releases/8.11.1/css/anychart-ui.min.css?hcode=a0c21fc77e1449cc86299c5faa067dc4" rel="stylesheet" type="text/css">
+  <style>html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}</style>
+ </head>
+ <body>
+  <div id="container"></div>
+  <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-core.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+  <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-pie.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+  <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-exports.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+  <script src="https://cdn.anychart.com/releases/8.11.1/js/anychart-ui.min.js?hcode=a0c21fc77e1449cc86299c5faa067dc4"></script>
+  <script type="text/javascript">anychart.onDocumentReady(function () {
+
+    // criar os dados
+    var data = [
+      {x: "A", value: 637166},
+      {x: "B", value: 721630},
+      {x: "C", value: 148662},
+      {x: "D", value: 78662},
+      {x: "E", value: 90000}
+    ];
+
+    // criar um gráfico de pizza em 3D e definir os dados
+    var chart = anychart.pie3d(data);
+
+    // definir o título do gráfico
+	  chart.title("Gráfico de Pizza em 3D");
+
+    // definir o ID do contêiner
+    chart.container("container");
+
+    // iniciar o desenho do gráfico
+    chart.draw();
+});</script>
+ </body>
+</html>
