@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="script.js"></script>
+  <title>Imprimir Tabela em PDF</title>
+  <style>
+    
+    body{
+      background-color: #dff8d5;
+    }
+    #tabela {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 550px;
+      color: white;
+    }
+    img{
+      justify-content: center;
+    }
+    table {
+      width: 600px;
+      font: 17px Calibri;
+    }
+
+    input {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    table,
+    td {
+      border: solid 1px #DDD;
+      border-collapse: collapse;
+      padding: 2px 3px;
+      text-align: center;
+      background-color: #004D73;
+    }
+    th{
+      background-color: #4CAF50;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="tabela">
+    <table>
+      <tr>
+        <th>Nome</th>
+        <th>Mês</th>
+        <th>Ano</th>
+        <th>Rendimentos em %</th>
+      </tr>
+      <tr>
+        <td>Lucas</td>
+        <td>Abril</td>
+        <td>2023</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Pedro</td>
+        <td>Maio</td>
+        <td>2023</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Bruna</td>
+        <td>Julho</td>
+        <td>2023</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Sandy</td>
+        <td>Janeiro</td>
+        <td>2023</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Kerley</td>
+        <td>Dezembro</td>
+        <td>2023</td>
+        <td>0%</td>
+      </tr>
+      <tr>
+        <td>Samuel</td>
+        <td>Fevereiro</td>
+        <td>2023</td>
+        <td>0%</td>
+      </tr>
+    </table>
+  </div>
+  <p>
+    <input type="button" value="Imprimir PDF" id="btnImprimir" onclick="CriaPDF()" />
+  </p>
+</body>
+
+</html>
