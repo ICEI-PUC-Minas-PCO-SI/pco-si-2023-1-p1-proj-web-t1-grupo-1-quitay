@@ -1,58 +1,82 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Investimentos</title>
-    <link rel="stylesheet" href="stylesamuel.css">
+
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="login.css" rel="stylesheet" type="text/css" />
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="script.js"></script>
+    <script src="jquery.js"></script>
+
+    <title>Cadastro de despesas</title>
 </head>
 
-<body>
-    <!--Cabeçalho-->
-    <header>
-        <br></br><br></br>
-        <br></br>
-    </header>
+<body style="background-color: #dff8d5;">
 
-    <!--Conteúdo do Site-->
-    <main>
-        <div class="tela-cadastro">
-            <h1>Cadastro de Investimentos</h1>
-
-            <form action="">
-                <label for="conta">
-                    <span>Tipo de conta</span>
-                    <input type="text" placeholder="Tipo de conta" id="conta" name="conta">
-                </label>
-
-                <label for="empresa">
-                    <span>Nome da empresa</span>
-                    <input type="empresa" placeholder="Nome da empresa" id="empresa" name="empresa">
-                </label>
-
-                <label for="valor">
-                    <span>valor em R$</span>
-                    <input type="valor" placeholder="Valor em R$" id="valor" name="valor">
-                </label>
-
-                <label for="juros">
-                    <span>juros %</span>
-                    <input type="juros" placeholder="Juros %" id="juros" name="juros">
-                </label>
-
-                <form action="http://google.com">
-                <input type="submit" id="outra" value="Outra conta"> 
-                <input type="submit" id="cadastro" value="Cadastrar">
-            
-            </form>
+    <!--Mesma class usado por Kerley para fazer a tela de login, mantendo o padrão-->
+    <div class="login_card">
+        <img src="img/logotemp.jpg">
+        <br>
+        <div class="form-group">
+            <center>
+                <label>Cadastro de Investimentos</label>
+            </center>
         </div>
-    </main>
+        <form onsubmit="return calcularInvestimento()">
+            <!--Textbox da investimento-->
+            <div class="form-group">
+                <label for="opcao">Escolha uma opção:</label>
+                <select id="opcao">
+                    <option value="opcaoZero">-------</option>
+                    <option value="opcao1">Renda Fixa</option>
+                    <option value="opcao2">Renda Fixa e Variável</option>
+                    <option value="opcao3">Renda Variável</option>
+                </select>
+                <br>
+                <!--Textbox valor-->
+                <label for="valorInvestir">Valor para investir:</label>
+                <input type="number" class="form-control" id="valorInvestir" placeholder="Valor - R$">
+                <br>
+                <button type="submit">Calcular</button>
+                <br>
+                <p id="resultado"></p>
+            </div>
+            <br>
 
-    <br></br><br></br>
-    <br></br>
+            <!--Adiconar ref tela inicial-->
+            <center>
+                <a href="cadastrodeinvestimentos.html" class="btn btn-quitay">Outra conta</a>
+                <a href="Paginaincial.html" class="btn btn-quitay">Cadastrar</a>
+            </center>
+        </form>
+    </div>
 
+    <!--Script JavaScript-->
+    <script>
+        function calcularInvestimento() {
+            var opcao = document.getElementById("opcao").value;
+            var valorInvestir = parseFloat(document.getElementById("valorInvestir").value);
+            var resultado = document.getElementById("resultado");
+
+            if (opcao === "opcao1") {
+                valorInvestir *= 1.05;
+            } else if (opcao === "opcao2") {
+                valorInvestir *= 1.07;
+            } else if (opcao === "opcao3") {
+                valorInvestir *= 1.09;
+            }
+
+            resultado.textContent = "Valor final do investimento: " + valorInvestir.toFixed(2);
+
+            return false; // Cancelar o envio do formulário
+        }
+    </script>
 </body>
 
 </html>
