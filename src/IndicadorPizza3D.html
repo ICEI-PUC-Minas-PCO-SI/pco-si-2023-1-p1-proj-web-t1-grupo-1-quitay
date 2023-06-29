@@ -18,7 +18,16 @@
     height: 100%;
     margin: 0;
     padding: 0;
-}</style>
+}
+input {
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+</style>
  </head>
  <body>
   <div id="container"></div>
@@ -49,6 +58,8 @@
     // iniciar o desenho do gráfico
     chart.draw();
 });</script>
- <a href="Imprimir.html" class="btn btn-quitay">Imprimir Relatorios</a>
+  <p>
+    <input type="button" value="Imprimir PDF" id="btnImprimir" />
+  </p>
  </body>
 </html>
