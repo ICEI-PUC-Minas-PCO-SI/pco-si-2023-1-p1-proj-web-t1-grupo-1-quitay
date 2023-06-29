@@ -12,6 +12,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
     <script src="script.js"></script>
+
     <script src="jquery.js"></script>
 
     <!--JQuery-->
@@ -20,56 +21,71 @@
     <title>Cadastro de despesas</title>
 </head>
 
+
 <body>
 
     <!--Mesma class usado por Kerley para fazer a tela de login, mantendo o padrão-->
     <div class="login_card">
-<<<<<<< HEAD
-        <img src="xxxx">
-=======
         <img src="img/logotemp.jpg">
->>>>>>> Develop
 
-        <form>
+        <form id="formulario" onsubmit="return calcular()">
             <!--Textbox do salário-->
             <div class="form-group">
-                <center><label>Informe seu salário</label></center>
-                <input type="number" class="form-control" id="salario" placeholder="Valor do salário">
+                <center><label for="salario">Informe seu salário</label></center>
+                <input type="text" class="form-control" id="salario" placeholder="Valor do salário" />
                 <br>
             </div>
             <!--Textbox dos gastos-->
             <div class="form-group" id="gastosform">
-                <center><label>Informe seus gastos</label></center>
-                <input type="number" class="form-control" id="gasto1" placeholder="Valor do gasto">
+                <center><label for="despesas">Informe seus gastos</label></center>
+                <input type="text" class="form-control" id="despesas" placeholder="Valor do gasto" />
             </div>
             <br>
             <!--Botão adiciona campo dos gastos-->
             <button type="button" id="botaoaddcampo">Adicionar gastos</button>
-
+            <br>
+            <br>
+            <button type="submit">Calcular</button>
+            <p id="resultado"></p>
             <br>
             <br>
             <div class="form-group">
-                <!--Adiconar ref tela inicial-->
+                <!--Adicionar ref tela inicial-->
                 <center>
-<<<<<<< HEAD
-                    <a href="index.html" class="btn btn-quitay">Página inicial</a>
-                    <a href="index.html" class="btn btn-quitay">Cadastrar</a>
-=======
-                    <a href="index.html" class="btn btn-quitay">Outra conta</a>
-                    <a href="index.html" class="btn btn-quitay">Cadastrar</a>
->>>>>>> Develop
+                    <a href="cadastro_despesas.html" class="btn btn-quitay">Outra conta</a>
+                    <a href="Paginaincial.html" class="btn btn-quitay">Cadastrar</a>
                 </center>
             </div>
         </form>
     </div>
+
+    <!--Script JavaScript-->
+    <script>
+        function calcular() {
+            // Obter os valores dos inputs
+            var salario = parseFloat(document.getElementById("salario").value);
+            var despesas = parseFloat(document.getElementById("despesas").value);
+
+            // Verificar se os valores são válidos
+            if (isNaN(salario) || isNaN(despesas)) {
+                document.getElementById("resultado").textContent = "Insira valores válidos";
+                return false; // Cancelar o envio do formulário
+            }
+
+            // Calcular o resultado
+            var resultado = salario - despesas;
+
+            // Exibir o resultado
+            document.getElementById("resultado").textContent = "O valor disponível é: " + resultado.toFixed(2);
+
+            return false; // Cancelar o envio do formulário
+        }
+
+        $("#botaoaddcampo").on("click", function () {
+            $("#gastosform").append('<input type="number" class="form-control" id="gasto1" placeholder="Valor do gasto">');
+        });
+    </script>
+
 </body>
-
-<!--Script JQuery do botão de adicionar campos-->
-<script>
-    $("#botaoaddcampo").on("click", function () {
-        $("#gastosform").append('<input type="number" class="form-control" id="gasto1" placeholder="Valor do gasto">');
-
-    });
-</script>
 
 </html>
