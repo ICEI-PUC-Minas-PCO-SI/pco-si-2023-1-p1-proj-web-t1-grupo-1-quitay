@@ -104,6 +104,46 @@
 </div>
 
 
+<script>
+  function salvarUsuario() {
+    // Obtém os valores dos campos de entrada
+    var nome = document.getElementById('nome').value;
+    var usuario = document.getElementById('usuario').value;
+    var senha = document.getElementById('senha').value;
+
+    // Cria um objeto com os dados do usuário
+    var usuarioObj = {
+      nome: nome,
+      usuario: usuario,
+      senha: senha
+    };
+
+    // Converte o objeto em uma string JSON
+    var usuarioJSON = JSON.stringify(usuarioObj);
+
+    // Cria uma nova requisição AJAX
+    var xhr = new XMLHttpRequest();
+
+    // Define o método HTTP e a URL de destino
+    xhr.open('POST', 'usuarios.json', true);
+
+    // Define o cabeçalho da requisição
+    xhr.setRequestHeader('Content-Type', 'application/json');
+
+    // Envia a requisição com os dados do usuário
+    xhr.send(usuarioJSON);
+
+    // Função de callback para tratar a resposta da requisição
+    xhr.onreadystatechange = function() {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        alert('Usuário salvo com sucesso!');
+      } else {
+        alert('Ocorreu um erro ao salvar o usuário.');
+      }
+    };
+  }
+</script>
+
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
