@@ -15,6 +15,7 @@
     <script src="jquery.js"></script>
 
     <title>Cadastro de despesas</title>
+
 </head>
 
 <body>
@@ -45,20 +46,48 @@
             </div>
 
             <!--Textbox juros-->
+            <label for="tempo">Tempo (meses):</label>
+            <input type="number" class="form-control" id="tempo" placeholder="Tempo">
+
+            <!--Textbox juros-->
             <div class="form-group">
-                <input type="number" class="form-control" id="juros" placeholder="Juros R$ / %">
+                <input type="number" class="form-control" id="taxaJuros" placeholder="Juros R$ / %">
             </div>
-            <br>
-            <br>
+            <button type="button" onclick="calcularJuros()">Calcular</button>
+
+            <p>Resultado:</p>
+            <p id="juros"></p>
+            <p id="valorTotal"></p>
+
             <div class="form-group">
                 <!--Adiconar ref tela inicial-->
                 <center>
-                    <a href="index.html" class="btn btn-quitay">Outra conta</a>
-                    <a href="index.html" class="btn btn-quitay">Cadastrar</a>
+                    <a href="Paginaincial.html" class="btn btn-quitay">Outra conta</a>
+                    <a href="Paginaincial.html" class="btn btn-quitay">Cadastrar</a>
                 </center>
             </div>
         </form>
     </div>
+
+    <!--Script JavaScript-->
+    <script>
+        function calcularJuros() {
+            // Obter os valores dos campos de entrada
+            var principal = parseFloat(document.getElementById('valor').value);
+            var taxaJuros = parseFloat(document.getElementById('taxaJuros').value);
+            var tempo = parseInt(document.getElementById('tempo').value);
+
+            // Calcular os juros
+            var juros = (principal * taxaJuros * tempo) / 100;
+
+            // Calcular o valor total
+            var valorTotal = principal + juros;
+
+            // Exibir o resultado
+            document.getElementById('juros').textContent = 'Valor dos juros: R$ ' + juros.toFixed(2);
+            document.getElementById('valorTotal').textContent = 'Valor total com juros: R$ ' + valorTotal.toFixed(2);
+        }
+    </script>
 </body>
 
 
