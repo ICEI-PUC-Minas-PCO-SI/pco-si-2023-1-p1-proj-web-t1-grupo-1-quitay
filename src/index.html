@@ -26,7 +26,7 @@
         <div class="offcanvas-body">
           <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
             <li class="nav-item">
-              <a style="text-decoration: none; color: black;" href="login.html">Login</a>
+              <a style="text-decoration: none; color: black;" href="login.html">Logout</a>
             </li>
             <li class="nav-item">
               <a style="text-decoration: none; color: black;" href="cadastro_contas.html">Cadastro de Contas</a>
@@ -42,6 +42,7 @@
               <a style="text-decoration: none;color: black;" href="Paginaincial.html"> Dúvidas Frequentes</a>
             </li>
           </ul>
+          
           <form class="d-flex mt-3" role="search">
             <input class="form-control me-2" type="search" placeholder="Como Posso Ajudar?" aria-label="Search">
             <button class="btn" style="background-color:#0D4D73; color: white;" type="submit">Pesquisar</button>
@@ -60,70 +61,78 @@
     <div class="d-grid gap-2 d-md-flex justify-content-md-end">
       <button type="button" class="btn" style="background-color:#0D4D73; color: white;"><a href="login.html"
         target="_blank" style="text-decoration: none; color: white;">Cadastro</a></button>
-      <button type="button" class="btn" style="background-color:#0D4D73; color: white;"><a href="SobreNos.html"
-          target="_blank" style="text-decoration: none; color: white;">Quem Somos?</a></button>
+      <button type="button" class="btn" style="background-color:#0D4D73; color: white;"><a href="IndicadorPizza3D.html"
+          target="_blank" style="text-decoration: none; color: white;">Relatorios</a></button>
     </div>
 
     <center>
-      <div style="margin: 10px;" ; class="row row-cols-1 row-cols-md-3 g-4">
-
-        <div class="col">
-          <div class="card h-100" style="width: 100%;">
-            <img src="Images/MA.PNG" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">José</h5>
-            </div>
-          </div>
-        </div>
-
-        <div class="col">
-          <div class="card h-100" style="width: 100%;">
-            <img src="Images/test.avif" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Luciana</h5>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="card h-100" style="width: 100%;">
-            <img src="Images/a2.png" class="card-img" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Júlia</h5>
-            </div>
-
-          </div>
+      <style>
+        .custom-img {
+          width: 100%;
+          height: 360px; /* Defina a altura desejada para as imagens */
+          object-fit: cover;
+        }
+      </style>
+  <div style="margin: 10px;" class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col">
+      <div class="card h-100" style="width: 100%;">
+        <img src="Images/MA.PNG" class="card-img-top custom-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">José</h5>
         </div>
       </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="width: 100%;">
+        <img src="Images/test.avif" class="card-img-top custom-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Luciana</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-100" style="width: 100%;">
+        <img src="Images/a2.png" class="card-img-top custom-img" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Júlia</h5>
+        </div>
+      </div>
+    </div>
+  </div>
 
-    </center>
+</center>
+
 
     <center>
-
-      <div style="margin: 0px;" ; class="row row-cols-1 row-cols-md-3 g-4">
+      
+      <div style="margin: 0px;" class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card h-90" style="width: 400px;">
-            <img src="Images/Sing.PNG" class="card-img">
+          <div class="card custom-card">
+            <img src="Images/Sing.PNG" class="card-img custom-img">
             <button type="button" class="btn" style="background-color:#0D4D73;">
-              <a href="login.html" target="_blank"
-                style="text-decoration: none; color: white;">Cadastro</a></button>
+              <a href="login.html" target="_blank" style="text-decoration: none; color: white;">Cadastro</a>
+            </button>
           </div>
         </div>
         <div class="col">
-          <div class="card h-90 " style="width: 400px;">
-            <img src="Images/ges.jpg" class="card-img">
+          <div class="card custom-card">
+            <img src="Images/ges.jpg" class="card-img custom-img">
             <button type="button" class="btn" style="background-color:#0D4D73;">
-              <a href="SobreNos.html" target="_blank" style="text-decoration: none; color: white;">Sobre
-                Nós</a></button>
+              <a href="SobreNos.html" target="_blank" style="text-decoration: none; color: white;">Sobre Nós</a>
+            </button>
           </div>
         </div>
         <div class="col">
-          <div class="card h-100" style="width: 355px; height: 30px">
-            <img src="Images/duvi.png" class="card-img">
+          <div class="card custom-card">
+            <img src="Images/duvi.png" class="card-img custom-img">
             <button type="button" class="btn" style="background-color:#0D4D73;">
-              <a href="index.html" target="_blank" style="text-decoration: none; color: white;">Duvidas?</a></button>
+              <a href="index.html" target="_blank" style="text-decoration: none; color: white;">Duvidas?</a>
+            </button>
           </div>
         </div>
       </div>
+      
+      
 
       <footer style="text-align: end;">
 
@@ -138,7 +147,7 @@
               </ul>
             </div>
             <div class="col-md-3">
-              <p><b>Rede Social</b> </p>
+              <p><b>Rede Sociais</b> </p>
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram"
                 viewBox="0 0 16 16">
                 <path
@@ -162,7 +171,7 @@
             </div>
             <div class="col-md-3">
               <p><b>Contato</b></p>
-              <p><a href="#" style="text-decoration: none;color:black;"><b>Quitay@gmail.com.br</a></b></p>
+              <p><a href="#" style="text-decoration: none;color:black;"><b>quitay@gmail.com.br</a></b></p>
               <p style="color:black;"><b>4002-8922</b></p>
             </div>
           </div>
