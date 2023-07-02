@@ -43,86 +43,68 @@ function entrar() {
     });
 }
 
-function cadastrar() {
-  var nome = document.getElementById('nomeCadastro').value;
-  var email = document.getElementById('emailCadastro').value;
-  var senha = document.getElementById('senhaCadastro').value;
-  var confirmarSenha = document.getElementById('confirmarSenhaCadastro').value;
+  function cadastrar() {
+    var nome = document.getElementById("nomeCadastro").value;
+    var email = document.getElementById("emailCadastro").value;
+    var senha = document.getElementById("senhaCadastro").value;
+    var confirmarSenha = document.getElementById("confirmarSenhaCadastro").value;
 
-  if (senha !== confirmarSenha) {
-    alert('As senhas não coincidem.');
-    return;
-  }
+    // Verificar se todos os campos foram preenchidos
+    if (nome === "" || email === "" || senha === "" || confirmarSenha === "") {
+      alert("Por favor, preencha todos os campos.");
+      return;
+    }
 
-  var usuario = {
-    nome: nome,
-    email: email,
-    senha: senha
-  };
+    // Verificar se as senhas coincidem
+    if (senha !== confirmarSenha) {
+      alert("As senhas não coincidem. Por favor, digite novamente.");
+      return;
+    }
 
-  // Faz a requisição para adicionar um novo usuário
-  fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios', {
-    method: 'POST',    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify(usuario)
-  })
-    .then(response => response.json())
-    .then(data => {
-      alert('Usuário cadastrado com sucesso!');
-      // Redireciona para a próxima página após cadastro bem-sucedido
-      window.location.href = 'login.html';
-    })
-    .catch(error => {
-      console.log('Ocorreu um erro ao cadastrar o usuário:', error);
-    });
-}
+    // Carregar os usuários existentes do arquivo usuarios.json
+    $.getJSON("usuarios.json", function (data) {
+      // Verificar se o usuário já está cadastrado
+      var usuarioExistente = data.find(function (usuario) {
+        return usuario.email === email;
+      });
 
-function cadastrarUsuario(event) {
-  event.preventDefault(); // Impede o envio do formulário
+      if (usuarioExistente) {
+        alert("O email informado já está cadastrado. Por favor, use outro email.");
+        return;
+      }
 
-  // Obtém os valores dos campos de entrada
-  var nome = document.getElementById('nomeCadastro').value;
-  var email = document.getElementById('emailCadastro').value;
-  var senha = document.getElementById('senhaCadastro').value;
-  var confirmarSenha = document.getElementById('confirmarSenhaCadastro').value;
-
-  // Verifica se todos os campos estão preenchidos
-  if (nome && email && senha && confirmarSenha) {
-    // Verifica se as senhas coincidem
-    if (senha === confirmarSenha) {
-      // Cria um objeto com os dados do usuário
+      // Criar objeto de usuário
       var usuario = {
         nome: nome,
         email: email,
         senha: senha
       };
 
-      // Faz a requisição para cadastrar o usuário
-      fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
+      // Adicionar o novo usuário ao array de usuários existentes
+      data.push(usuario);
+
+      // Converter o array atualizado para JSON
+      var jsonData = JSON.stringify(data);
+
+      // Gravar os dados atualizados no arquivo usuarios.json
+      $.ajax({
+        url: "usuarios.json",
+        type: "POST",
+        data: jsonData,
+        contentType: "application/json",
+        success: function () {
+          alert("Usuário cadastrado com sucesso!");
+          // Limpar os campos do formulário após o cadastro
+          document.getElementById("nomeCadastro").value = "";
+          document.getElementById("emailCadastro").value = "";
+          document.getElementById("senhaCadastro").value = "";
+          document.getElementById("confirmarSenhaCadastro").value = "";
         },
-        body: JSON.stringify(usuario      })
-      .then(function(response) {
-        if (response.ok) {
-          // O usuário foi cadastrado com sucesso
-          alert('Usuário cadastrado com sucesso!');
-        } else {
-          // Ocorreu um erro ao cadastrar o usuário
-          alert('Ocorreu um erro ao cadastrar o usuário.');
+        error: function () {
+          alert("Ocorreu um erro ao cadastrar o usuário. Por favor, tente novamente.");
         }
-      })
-      .catch(function(error) {
-        // Ocorreu um erro de conexão ou processamento
-        alert('Ocorreu um erro ao cadastrar o usuário.');
       });
-  } else {
-    // Caso algum campo não esteja preenchido
-    alert('Preencha todos os campos!');
+    }).fail(function () {
+      alert("Ocorreu um erro ao acessar o arquivo usuarios.json. Por favor, tente novamente.");
+    });
   }
-}
-
-
-   
