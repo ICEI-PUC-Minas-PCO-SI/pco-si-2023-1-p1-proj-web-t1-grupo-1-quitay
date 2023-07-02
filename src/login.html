@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet" type="text/css" /> 
-  <script src="jquery.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="login.css" rel="stylesheet" type="text/css" />
+  <script src="script.js"></script>
   <title>Tela de Login</title>
 </head>
 
@@ -15,7 +17,7 @@
     <br>
     <br>
     <br>
-    
+
     <form>
       <div class="form-group">
         <label for="email">Email:</label>
@@ -68,7 +70,7 @@
           <h5 class="modal-title" id="cadastroModalLabel">Cadastro de Usuário</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
-          </button>
+                    </button>
         </div>
         <div class="modal-body">
           <form>
@@ -87,13 +89,13 @@
               <input type="password" class="form-control" id="senhaCadastro" placeholder="Digite sua senha">
               <br>
             </div>
-            
+
             <div class="form-group">
               <label for="confirmarSenhaCadastro">Confirmar Senha:</label>
               <input type="password" class="form-control" id="confirmarSenhaCadastro" placeholder="Confirme sua senha">
             </div>
             <br>
-            <button type="submit" class="btn btn-quitay">Cadastrar</button>
+            <button type="button" class="btn btn-quitay" onclick="cadastrar()">Cadastrar</button>
           </form>
         </div>
       </div>
@@ -102,38 +104,11 @@
   </div>
 </div>
 
-
-<script>
-  function entrar() {
-    // Obtém os valores dos campos de email e senha
-    var email = document.getElementById('email').value;
-    var senha = document.getElementById('senha').value;
-
-    // Cria uma requisição AJAX para obter os usuários
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json', true);
-    xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        var usuarios = JSON.parse(xhr.responseText).usuarios;
-        var usuarioEncontrado = usuarios.find(function(usuario) {
-          return usuario.email === email && usuario.senha === senha;
-        });
-        if (usuarioEncontrado) {
-          alert('Usuário encontrado. Faça o que desejar.');
-          // Aqui você pode redirecionar para outra página ou realizar outras ações
-        } else {
-          alert('Usuário não encontrado. Verifique suas credenciais.');
-        }
-      } else {
-        alert('Ocorreu um erro ao verificar os usuários.');
-      }
-    };
-    xhr.send();
-  }
-</script>
-
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 
 </html>
+
