@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Configuração</title>
+  <script>
+    var usuarios = [];
+
+    function exibirUsuarios() {
+      var usuariosContainer = document.getElementById("usuariosContainer");
+      usuariosContainer.innerHTML = "";
+
+      usuarios.forEach(function(usuario) {
+        var checkbox = document.createElement("input");
+        checkbox.type = "checkbox";
+        checkbox.name = "usuariosSelecionados";
+        checkbox.value = usuario.codigo;
+
+        var label = document.createElement("label");
+        label.textContent = usuario.nome;
+
+        var br = document.createElement("br");
+
+        usuariosContainer.appendChild(checkbox);
+        usuariosContainer.appendChild(label);
+        usuariosContainer.appendChild(br);
+      });
+    }
+
+    function deletarUsuarios() {
+      var checkboxes = document.getElementsByName("usuariosSelecionados");
+      var usuariosSelecionados = [];
+
+      checkboxes.forEach(function(checkbox) {
+        if (checkbox.checked) {
+          usuariosSelecionados.push(parseInt(checkbox.value));
+        }
+      });
+
+      var usuariosAtualizados = usuarios.filter(function(usuario) {
+        return !usuariosSelecionados.includes(usuario.codigo);
+      });
+
+      usuarios = usuariosAtualizados;
+      exibirUsuarios();
+      alert("Usuários deletados com sucesso!");
+    }
+
+    fetch("usuarios.json")
+      .then(function(response) {
+        return response.json();
+      })
+      .then(function(data) {
+        usuarios = data.usuarios;
+        exibirUsuarios();
+      })
+      .catch(function(error) {
+        console.error("Ocorreu um erro ao carregar os usuários:", error);
+      });
+  </script>
+</head>
+<body>
+  <h1>Configuração</h1>
+  <div id="usuariosContainer"></div>
+  <br>
+  <button onclick="deletarUsuarios()">Deletar selecionados</button>
+</body>
+</html>
