@@ -4,7 +4,7 @@
 {
   "rewrites": [{ "source": "/api/(.*)", "destination": "/api/$1" }],
   "functions": {
-    "api/cadastrarUsuario.js": {
+    "cadastrarUsuario.js": {
       "maxDuration": 10,
       "memory": 128
     }
