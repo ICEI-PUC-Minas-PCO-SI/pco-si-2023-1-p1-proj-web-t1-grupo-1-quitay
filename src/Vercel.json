@@ -1,10 +1,9 @@
-
-
-```json
 {
-  "rewrites": [{ "source": "/api/(.*)", "destination": "/api/$1" }],
+  "rewrites": [
+    { "source": "/usuarios.json", "destination": "/api/usuarios" }
+  ],
   "functions": {
-    "cadastrarUsuario.js": {
+    "api/*": {
       "maxDuration": 10,
       "memory": 128
     }
