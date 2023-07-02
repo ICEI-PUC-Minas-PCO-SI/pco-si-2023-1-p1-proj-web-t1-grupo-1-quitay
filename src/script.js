@@ -78,4 +78,51 @@ function cadastrar() {
     });
 }
 
+function cadastrarUsuario(event) {
+  event.preventDefault(); // Impede o envio do formulário
+
+  // Obtém os valores dos campos de entrada
+  var nome = document.getElementById('nomeCadastro').value;
+  var email = document.getElementById('emailCadastro').value;
+  var senha = document.getElementById('senhaCadastro').value;
+  var confirmarSenha = document.getElementById('confirmarSenhaCadastro').value;
+
+  // Verifica se todos os campos estão preenchidos
+  if (nome && email && senha && confirmarSenha) {
+    // Verifica se as senhas coincidem
+    if (senha === confirmarSenha) {
+      // Cria um objeto com os dados do usuário
+      var usuario = {
+        nome: nome,
+        email: email,
+        senha: senha
+      };
+
+      // Faz a requisição para cadastrar o usuário
+      fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(usuario      })
+      .then(function(response) {
+        if (response.ok) {
+          // O usuário foi cadastrado com sucesso
+          alert('Usuário cadastrado com sucesso!');
+        } else {
+          // Ocorreu um erro ao cadastrar o usuário
+          alert('Ocorreu um erro ao cadastrar o usuário.');
+        }
+      })
+      .catch(function(error) {
+        // Ocorreu um erro de conexão ou processamento
+        alert('Ocorreu um erro ao cadastrar o usuário.');
+      });
+  } else {
+    // Caso algum campo não esteja preenchido
+    alert('Preencha todos os campos!');
+  }
+}
+
+
    
