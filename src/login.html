@@ -1,13 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="style.css" rel="stylesheet" type="text/css" />
-  <link href="login.css" rel="stylesheet" type="text/css" />
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" /> 
+  <script src="jquery.js"></script>
   <title>Tela de Login</title>
 </head>
 
@@ -18,7 +15,7 @@
     <br>
     <br>
     <br>
-
+    
     <form>
       <div class="form-group">
         <label for="email">Email:</label>
@@ -30,7 +27,7 @@
         <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
       </div>
       <br>
-      <a href="index.html" class="btn btn-quitay">Entrar</a>
+      <button type="button" class="btn btn-quitay" onclick="entrar()">Entrar</button>
       <br>
       <br>
       <a href="#" data-toggle="modal" data-target="#esqueciSenhaModal">Esqueci a senha</a>
@@ -40,8 +37,7 @@
   </div>
 
   <!-- Modal Esqueci a Senha -->
-  <div class="modal fade" id="esqueciSenhaModal" tabindex="-1" role="dialog" aria-labelledby="esqueciSenhaModalLabel"
-    aria-hidden="true">
+  <div class="modal fade" id="esqueciSenhaModal" tabindex="-1" role="dialog" aria-labelledby="esqueciSenhaModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -65,18 +61,17 @@
   </div>
 
   <!-- Modal Cadastro de Usuário -->
-  <div class="modal fade" id="cadastroModal" tabindex="-1" role="dialog" aria-labelledby="cadastroModalLabel"
-    aria-hidden="true">
+  <div class="modal fade" id="cadastroModal" tabindex="-1" role="dialog" aria-labelledby="cadastroModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="cadastroModalLabel">Cadastro de Usuário</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body">
-          <form id="cadastroForm">
+          <form>
             <div class="form-group">
               <label for="nomeCadastro">Nome:</label>
               <input type="text" class="form-control" id="nomeCadastro" placeholder="Digite seu nome">
@@ -92,12 +87,13 @@
               <input type="password" class="form-control" id="senhaCadastro" placeholder="Digite sua senha">
               <br>
             </div>
+            
             <div class="form-group">
               <label for="confirmarSenhaCadastro">Confirmar Senha:</label>
               <input type="password" class="form-control" id="confirmarSenhaCadastro" placeholder="Confirme sua senha">
             </div>
             <br>
-            <button type="button" class="btn btn-quitay" onclick="salvarUsuario()">Cadastrar</button>
+            <button type="submit" class="btn btn-quitay">Cadastrar</button>
           </form>
         </div>
       </div>
@@ -108,48 +104,36 @@
 
 
 <script>
-  function salvarUsuario() {
-    // Obtém os valores dos campos de entrada
-    var nome = document.getElementById('nomeCadastro').value;
-    var email = document.getElementById('emailCadastro').value;
-    var senha = document.getElementById('senhaCadastro').value;
+  function entrar() {
+    // Obtém os valores dos campos de email e senha
+    var email = document.getElementById('email').value;
+    var senha = document.getElementById('senha').value;
 
-    // Cria um objeto com os dados do usuário
-    var usuarioObj = {
-      nome: nome,
-      email: email,
-      senha: senha
-    };
-
-    // Converte o objeto em uma string JSON
-    var usuarioJSON = JSON.stringify(usuarioObj);
-
-    // Cria uma nova requisição AJAX
+    // Cria uma requisição AJAX para obter os usuários
     var xhr = new XMLHttpRequest();
-
-    // Define o método HTTP e a URL de destino
-    xhr.open('POST', 'https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios', true);
-
-    // Define o cabeçalho da requisição
-    xhr.setRequestHeader('Content-Type', 'application/json');
-
-    // Envia a requisição com os dados do usuário
-    xhr.send(usuarioJSON);
-
-    // Função de callback para tratar a resposta da requisição
+    xhr.open('GET', 'https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json', true);
     xhr.onreadystatechange = function() {
-      if (xhr.readyState === 4) {
-        if (xhr.status === 201) {
-          alert('Usuário cadastrado com sucesso!');
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        var usuarios = JSON.parse(xhr.responseText).usuarios;
+        var usuarioEncontrado = usuarios.find(function(usuario) {
+          return usuario.email === email && usuario.senha === senha;
+        });
+        if (usuarioEncontrado) {
+          alert('Usuário encontrado. Faça o que desejar.');
+          // Aqui você pode redirecionar para outra página ou realizar outras ações
         } else {
-          alert('Ocorreu um erro ao cadastrar o usuário.');
+          alert('Usuário não encontrado. Verifique suas credenciais.');
         }
+      } else {
+        alert('Ocorreu um erro ao verificar os usuários.');
       }
     };
+    xhr.send();
   }
 </script>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
-
