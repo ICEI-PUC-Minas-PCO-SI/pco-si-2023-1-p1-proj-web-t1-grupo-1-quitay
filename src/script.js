@@ -68,49 +68,31 @@ function cadastrar() {
     return;
   }
 
-  // Criar objeto de usuário
+  // Objeto de dados do usuário
   var usuario = {
     nome: nome,
     email: email,
     senha: senha
   };
 
-  // Faz a requisição para obter os usuários
-  fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json')
+  // Fazer a requisição POST para cadastrar o usuário
+  fetch("/api/cadastrarUsuario", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/json"
+    },
+    body: JSON.stringify(usuario)
+  })
     .then(response => response.json())
     .then(data => {
-      // Verificar se o usuário já está cadastrado
-      var usuarioExistente = data.usuarios.find(usuario => usuario.email === email);
-
-      if (usuarioExistente) {
-        alert("O email informado já está cadastrado. Por favor, use outro email.");
-        return;
-      }
-
-      // Faz a requisição para cadastrar o novo usuário
-      fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(usuario)
-      })
-        .then(() => {
-          alert("Usuário cadastrado com sucesso!");
-          // Limpar os campos do formulário após o cadastro
-          document.getElementById("nomeCadastro").value = "";
-          document.getElementById("emailCadastro").value = "";
-          document.getElementById("senhaCadastro").value = "";
-          document.getElementById("confirmarSenhaCadastro").value = "";
-        })
-        .catch(error => {
-          console.log('Ocorreu um erro ao cadastrar o usuário:', error);
-          alert("Ocorreu um erro ao cadastrar o usuário. Por favor, tente novamente.");
-        });
+      alert(data.message);
+      // Limpar os campos do formulário após o cadastro
+      document.getElementById("nomeCadastro").value = "";
+      document.getElementById("emailCadastro").value = "";
+      document.getElementById("senhaCadastro").value = "";
+      document.getElementById("confirmarSenhaCadastro").value = "";
     })
     .catch(error => {
-      console.log('Ocorreu um erro ao realizar a requisição:', error);
-      alert("Ocorreu um erro ao acessar os usuários. Por favor, tente novamente.");
+      console.error("Ocorreu um erro ao cadastrar o usuário:", error);
     });
 }
-
