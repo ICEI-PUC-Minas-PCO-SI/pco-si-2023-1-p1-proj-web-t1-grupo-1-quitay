@@ -106,69 +106,7 @@ Copy code
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="script.js"></script>
-  <script>
-    function cadastrar() {
-      var nome = document.getElementById("nomeCadastro").value;
-      var email = document.getElementById("emailCadastro").value;
-      var senha = document.getElementById("senhaCadastro").value;
-      var confirmarSenha = document.getElementById("confirmarSenhaCadastro").value;
-
-      // Verificar se todos os campos foram preenchidos
-      if (nome === "" || email === "" || senha === "" || confirmarSenha === "") {
-        alert("Por favor, preencha todos os campos.");
-        return;
-      }
-
-      // Verificar se as senhas coincidem
-      if (senha !== confirmarSenha) {
-        alert("As senhas não coincidem. Por favor, digite novamente.");
-        return;
-      }
-
-      // Criar objeto de usuário
-      var usuario = {
-        nome: nome,
-        email: email,
-        senha: senha
-      };
-
-      // Gravar usuário no arquivo usuarios.json
-      $.ajax({
-        url: "usuarios.json",
-        type: "GET",
-        dataType: "json",
-        success: function (data) {
-          // Adicionar novo usuário ao array de usuários existentes
-          data.push(usuario);
-
-          // Converter o array atualizado para JSON
-          var jsonData = JSON.stringify(data);
-
-          // Gravar os dados atualizados no arquivo usuarios.json
-          $.ajax({
-            url: "usuarios.json",
-            type: "POST",
-            data: jsonData,
-            contentType: "application/json",
-            success: function () {
-              alert("Usuário cadastrado com sucesso!");
-              // Limpar os campos do formulário após o cadastro
-              document.getElementById("nomeCadastro").value = "";
-              document.getElementById("emailCadastro").value = "";
-              document.getElementById("senhaCadastro").value = "";
-              document.getElementById("confirmarSenhaCadastro").value = "";
-            },
-            error: function () {
-              alert("Ocorreu um erro ao cadastrar o usuário. Por favor, tente novamente.");
-            }
-          });
-        },
-        error: function () {
-          alert("Ocorreu um erro ao acessar o arquivo usuarios.json. Por favor, tente novamente.");
-        }
-      });
-    }
-  </script>
+ 
 </body>
 </html>
 
