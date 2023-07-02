@@ -121,11 +121,9 @@
 
       usuarios.forEach(function(usuario) {
         var row = usuariosTable.insertRow();
-        var idCell = row.insertCell();
         var nomeCell = row.insertCell();
         var emailCell = row.insertCell();
 
-        idCell.textContent = usuario.codigo;
         nomeCell.textContent = usuario.nome;
         emailCell.textContent = usuario.email;
       });
@@ -194,11 +192,12 @@
     
     <table id="usuariosTable">
       <tr>
-        <th>ID</th>
+
         <th>Usuário</th>
         <th>Email</th>
       </tr>
-      <td>teste</td>
+      <td>usuario</td>
+       <td>email</td>
     </table>
 
     <div class="button-container">
