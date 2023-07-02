@@ -1,58 +1,41 @@
+const fs = require('fs');
 
-const fs = require("fs");
+module.exports = async (req, res) => {
+  try {
+    // Lê o conteúdo do arquivo usuarios.json
+    const usuariosData = fs.readFileSync('usuarios.json', 'utf8');
+    const usuarios = JSON.parse(usuariosData);
 
-module.exports = (req, res) => {
-  if (req.method === "POST") {
-    const usuario = req.body;
+    // Obtém os dados do novo usuário do corpo da requisição
+    const { nome, email, senha } = req.body;
 
-    // Ler o arquivo usuarios.json
-    fs.readFile("usuarios.json", "utf8", (err, data) => {
-      if (err) {
-        console.error("Ocorreu um erro ao ler o arquivo usuarios.json:", err);
-        res.status(500).json({ message: "Erro ao cadastrar o usuário." });
-        return;
-      }
+    // Verifica se o usuário já está cadastrado pelo email
+    const usuarioExistente = usuarios.find((usuario) => usuario.email === email);
+    if (usuarioExistente) {
+      return res.status(400).json({ message: 'O email informado já está cadastrado. Por favor, use outro email.' });
+    }
 
-      try {
-        // Converter o conteúdo do arquivo para objeto
-        const usuarios = JSON.parse(data);
+    // Gera um ID único para o novo usuário
+    const novoUsuario = {
+      id: Date.now(),
+      nome,
+      email,
+      senha
+    };
 
-        // Verificar se o usuário já está cadastrado
-        const usuarioExistente = usuarios.find(u => u.email === usuario.email);
-        if (usuarioExistente) {
-          res.status(400).json({ message: "O email informado já está cadastrado. Por favor, use outro email." });
-          return;
-        }
+    // Adiciona o novo usuário ao array de usuários
+    usuarios.push(novoUsuario);
 
-        // Atribuir um ID ao novo usuário (pode ser um número sequencial ou algum outro critério)
-        const novoUsuario = {
-          id: usuarios.length + 1,
-          nome: usuario.nome,
-          email: usuario.email,
-          senha: usuario.senha
-        };
+    // Converte o array atualizado para JSON
+    const usuariosAtualizados = JSON.stringify({ usuarios });
 
-        // Adicionar o novo usuário ao array de usuários
-        usuarios.push(novoUsuario);
+    // Grava os dados atualizados no arquivo usuarios.json
+    fs.writeFileSync('usuarios.json', usuariosAtualizados, 'utf8');
 
-        // Converter o array atualizado para JSON
-        const jsonData = JSON.stringify({ usuarios });
-
-        // Gravar os dados atualizados no arquivo usuarios.json
-        fs.writeFile("usuarios.json", jsonData, "utf8", err => {
-          if (err) {
-            console.error("Ocorreu um erro ao gravar os dados no arquivo usuarios.json:", err);
-res.status(500).json({ message: "Erro ao cadastrar o usuário." });
-} else {
-res.status(200).json({ message: "Usuário cadastrado com sucesso!" });
-}
-});
-} catch (error) {
-console.error("Ocorreu um erro ao processar o arquivo usuarios.json:", error);
-res.status(500).json({ message: "Erro ao cadastrar o usuário." });
-}
-});
-} else {
-res.status(405).json({ message: "Método não permitido." });
-}
+    // Retorna uma resposta de sucesso
+    res.status(200).json({ message: 'Usuário cadastrado com sucesso!' });
+  } catch (error) {
+    console.error('Ocorreu um erro ao cadastrar o usuário:', error);
+    res.status(500).json({ message: 'Ocorreu um erro ao cadastrar o usuário. Por favor, tente novamente.' });
+  }
 };
