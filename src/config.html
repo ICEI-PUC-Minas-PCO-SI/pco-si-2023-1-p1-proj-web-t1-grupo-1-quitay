@@ -2,27 +2,79 @@
 <html>
 <head>
   <title>Configuração</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ccc;
+    }
+
+    th {
+      background-color: #f9f9f9;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 5px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .button-container {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+
+    .button-container button {
+      padding: 10px 20px;
+      font-size: 14px;
+      border-radius: 5px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .button-container button:hover {
+      background-color: #0056b3;
+    }
+  </style>
   <script>
     var usuarios = [];
 
     function exibirUsuarios() {
-      var usuariosContainer = document.getElementById("usuariosContainer");
-      usuariosContainer.innerHTML = "";
+      var usuariosTable = document.getElementById("usuariosTable");
+      usuariosTable.innerHTML = "";
 
       usuarios.forEach(function(usuario) {
-        var checkbox = document.createElement("input");
-        checkbox.type = "checkbox";
-        checkbox.name = "usuariosSelecionados";
-        checkbox.value = usuario.codigo;
+        var row = usuariosTable.insertRow();
+        var idCell = row.insertCell();
+        var nomeCell = row.insertCell();
+        var emailCell = row.insertCell();
 
-        var label = document.createElement("label");
-        label.textContent = usuario.nome;
-
-        var br = document.createElement("br");
-
-        usuariosContainer.appendChild(checkbox);
-        usuariosContainer.appendChild(label);
-        usuariosContainer.appendChild(br);
+        idCell.textContent = usuario.codigo;
+        nomeCell.textContent = usuario.nome;
+        emailCell.textContent = usuario.email;
       });
     }
 
@@ -45,23 +97,64 @@
       alert("Usuários deletados com sucesso!");
     }
 
-    fetch("usuarios.json")
-      .then(function(response) {
-        return response.json();
-      })
-      .then(function(data) {
-        usuarios = data.usuarios;
-        exibirUsuarios();
-      })
-      .catch(function(error) {
-        console.error("Ocorreu um erro ao carregar os usuários:", error);
-      });
-  </script>
+    function acessarAplicacao() {
+      // Redireciona para a página principal da aplicação
+      window.location.href = 'index.html';
+    }
+
+    function sairAplicacao() {
+      // Redireciona para a página de login
+      window.location.href = 'login.html';
+    }
+
+    function atualizarUsuarios() {
+      fetch("https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json")
+        .then(function(response) {
+          return response.json();
+        })
+        .then(function(data) {
+          usuarios = data.usuarios;
+          exibirUsuarios();
+          alert("Usuários atualizados com sucesso!");
+        })
+        .catch(function(error) {
+          console.error("Ocorreu um erro ao carregar os usuários:", error);
+        });
+    }
+
+    fetch("https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json")
+    .then(function(response) {
+      return response.json();
+    })
+    .then(function(data) {
+      usuarios = data.usuarios;
+      exibirUsuarios();
+    })
+    .catch(function(error) {
+      console.error("Ocorreu um erro ao carregar os usuários:", error);
+    });
+</script>
 </head>
 <body>
-  <h1>Configuração</h1>
-  <div id="usuariosContainer"></div>
-  <br>
-  <button onclick="deletarUsuarios()">Deletar selecionados</button>
+  <div class="container">
+    <h1>Configuração</h1>
+    
+    <table id="usuariosTable">
+      <tr>
+        <th>ID</th>
+        <th>Usuário</th>
+        <th>Email</th>
+      </tr>
+    </table>
+
+    <div class="button-container">
+      <button onclick="deletarUsuarios()">Deletar selecionados</button>
+      <button onclick="acessarAplicacao()">Acessar Aplicação</button>
+      <button onclick="sairAplicacao()">Sair</button>
+      <button onclick="atualizarUsuarios()">Atualizar Usuários</button>
+    </div>
+  </div>
 </body>
 </html>
+
+          
