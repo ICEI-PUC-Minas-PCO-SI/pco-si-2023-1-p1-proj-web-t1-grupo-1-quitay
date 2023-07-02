@@ -23,25 +23,32 @@ function entrar() {
   var email = document.getElementById('email').value;
   var senha = document.getElementById('senha').value;
 
-  // Faz a requisição para obter os usuários
-  fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json')
-    .then(response => response.json())
-    .then(data => {
-      var usuarios = data.usuarios;
-      var usuarioEncontrado = usuarios.find(usuario => usuario.email === email && usuario.senha === senha);
+  // Verifica se o usuário e senha correspondem aos valores esperados
+  if (email === "admin" && senha === "admin") {
+    // Redireciona para a página config.html
+    window.location.href = 'config.html';
+  } else {
+    // Faz a requisição para obter os usuários
+    fetch('https://pco-si-2023-1-p1-proj-web-t1-grupo-1-quitay.vercel.app/usuarios.json')
+      .then(response => response.json())
+      .then(data => {
+        var usuarios = data.usuarios;
+        var usuarioEncontrado = usuarios.find(usuario => usuario.email === email && usuario.senha === senha);
 
-      if (usuarioEncontrado) {
-        alert('Usuário autenticado com sucesso!');
-        // Redireciona para a próxima página após autenticação bem-sucedida
-        window.location.href = 'index.html';
-      } else {
-        alert('Email ou senha inválidos.');
-      }
-    })
-    .catch(error => {
-      console.log('Ocorreu um erro ao realizar a requisição:', error);
-    });
+        if (usuarioEncontrado) {
+          alert('Usuário autenticado com sucesso!');
+          // Redireciona para a próxima página após autenticação bem-sucedida
+          window.location.href = 'index.html';
+        } else {
+          alert('Email ou senha inválidos.');
+        }
+      })
+      .catch(error => {
+        console.log('Ocorreu um erro ao realizar a requisição:', error);
+      });
+  }
 }
+
 
 function cadastrar() {
   var nome = document.getElementById("nomeCadastro").value;
