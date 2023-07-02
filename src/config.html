@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 250vh;
     }
 
     h1 {
@@ -41,25 +41,77 @@
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     }
 
-    .button-container {
-      display: flex;
-      justify-content: space-between;
-      margin-bottom: 20px;
-    }
+ button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
 
-    .button-container button {
-      padding: 10px 20px;
-      font-size: 14px;
-      border-radius: 5px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-    }
+  .btn-quitay {
+    --bs-btn-color: #DFF8D5;
+    --bs-btn-bg: #004D73;
 
-    .button-container button:hover {
-      background-color: #0056b3;
-    }
+    --bs-btn-hover-color: #004D73;
+    --bs-btn-hover-bg: #DFF8D5;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #0d6efd;
+    --bs-btn-disabled-border-color: #0d6efd
+}
+  
+  button:hover {
+    background-color: #45a049;
+  }@import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+.transition (@time: 0.5s, @range: all, @ease: ease-out) {
+  -moz-transition: @range @time @ease;
+  -webkit-transition: @range @time @ease;
+  -o-transition: @range @time @ease;
+  transition: @range @time @ease;
+}
+
+.transition-delay (@time: 0.4s) {
+  -webkit-transition-delay: @time;
+  -moz-transition-delay: @time;
+  -o-transition-delay: @time;
+  -transition-delay: @time;
+}
+
+.border-radius(@radius) {
+  -moz-border-radius: @radius;
+  -webkit-border-radius: @radius;
+  border-radius: @radius;
+}
+
+.gradient (@coler1: #fff, @coler2: #ccc) {
+  background: @coler1;
+  background: -moz-linear-gradient(@coler1, @coler2);
+  background: -webkit-linear-gradient(@coler1, @coler2);
+  background: -o-linear-gradient(@coler1, @coler2);
+}
+
+.box-shadow(@dims:0 0 10px, @color:#000) {
+  box-shadow: @dims @color; // Opera, FFX4
+  -moz-box-shadow: @dims @color; // FFX3.5
+  -webkit-box-shadow: @dims @color; // Safari/Chrome/WebKit
+  .ie7 {
+    filter: e(
+      %(
+        "progid:DXImageTransform.Microsoft.Shadow(color='%d', Direction=135, Strength=3)",
+        @color
+      )
+    );
+  }
+}
+
   </style>
   <script>
     var usuarios = [];
