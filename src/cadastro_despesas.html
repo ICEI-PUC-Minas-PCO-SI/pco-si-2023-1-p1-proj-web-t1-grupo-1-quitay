@@ -36,7 +36,7 @@
                 <br>
             </div>
             <!--Textbox dos gastos-->
-            <div class="form-group" id="gastosform">
+            <div class="form-group gastosform">
                 <center><label for="despesas">Informe seus gastos</label></center>
                 <input type="text" class="form-control" id="despesas" placeholder="Valor do gasto" />
             </div>
@@ -53,7 +53,7 @@
                 <!--Adicionar ref tela inicial-->
                 <center>
                     <a href="cadastro_despesas.html" class="btn btn-quitay">Outra conta</a>
-                    <a href="index.html" class="btn btn-quitay">Cadastrar</a>
+                    <a href="Paginaincial.html" class="btn btn-quitay">Cadastrar</a>
                 </center>
             </div>
         </form>
@@ -62,18 +62,31 @@
     <!--Script JavaScript-->
     <script>
         function calcular() {
-            // Obter os valores dos inputs
+            // Obter o valor do salário
             var salario = parseFloat(document.getElementById("salario").value);
-            var despesas = parseFloat(document.getElementById("despesas").value);
 
-            // Verificar se os valores são válidos
-            if (isNaN(salario) || isNaN(despesas)) {
-                document.getElementById("resultado").textContent = "Insira valores válidos";
+            // Verificar se o valor do salário é válido
+            if (isNaN(salario)) {
+                document.getElementById("resultado").textContent = "Insira um valor válido para o salário";
                 return false; // Cancelar o envio do formulário
             }
 
+            // Obter todos os campos de gastos
+            var camposGastos = document.getElementsByClassName("gastosform");
+
+            // Inicializar o total de gastos
+            var totalGastos = 0;
+
+            // Calcular o total de gastos
+            for (var i = 0; i < camposGastos.length; i++) {
+                var gasto = parseFloat(camposGastos[i].querySelector(".form-control").value);
+                if (!isNaN(gasto)) {
+                    totalGastos += gasto;
+                }
+            }
+
             // Calcular o resultado
-            var resultado = salario - despesas;
+            var resultado = salario - totalGastos;
 
             // Exibir o resultado
             document.getElementById("resultado").textContent = "O valor disponível é: " + resultado.toFixed(2);
@@ -82,7 +95,12 @@
         }
 
         $("#botaoaddcampo").on("click", function () {
-            $("#gastosform").append('<input type="number" class="form-control" id="gasto1" placeholder="Valor do gasto">');
+            var indice = $(".gastosform").length + 1;
+            var novoCampo = '<div class="form-group gastosform">' +
+                '<center><label for="despesas">Informe seus gastos</label></center>' +
+                '<input type="text" class="form-control" id="gasto' + indice + '" placeholder="Valor do gasto">' +
+                '</div>';
+            $(novoCampo).insertBefore("#botaoaddcampo");
         });
     </script>
 
