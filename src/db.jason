@@ -1,1 +1,86 @@
-
+{
+    "users": [
+        {
+            "email": "pedro@eu.com",
+            "nome": "Pedro Paes",
+            "sexo": "Masculino",
+            "nascimento": "21/01/2003",
+            "senha": "123",
+            "salario": "1000",
+            "gastosgerais": "456",
+            "contas": [
+                {
+                    "nomeconta": "Conta de luz",
+                    "tipoconta": "Fixa",
+                    "nomeempresaconta": "Cemig",
+                    "valorconta": "100",
+                    "jurosconta": "5"
+                },
+                {
+                    "nomeconta": "Conta de agua",
+                    "tipoconta": "Fixa",
+                    "nomeempresaconta": "Copasa",
+                    "valorconta": "50",
+                    "jurosconta": "2"
+                },
+                {
+                    "nomeconta": "Cartao de credito",
+                    "tipoconta": "Variavel",
+                    "nomeempresaconta": "Nubank",
+                    "valorconta": "560",
+                    "jurosconta": "9"
+                }
+            ],
+            "investimentos": [
+                {
+                    "nomeinvestimento": "Tesouro direto",
+                    "tipoinvestimento": "Pos fixada",
+                    "nomeempresainvestimento": "Tesouro direto do Brasil",
+                    "valorinvestimento": "5420",
+                    "jurosinvestimento": "52"
+                },
+                {
+                    "nomeinvestimento": "CDB",
+                    "tipoinvestimento": "Renda fixa",
+                    "nomeempresainvestimento": "Inter",
+                    "valorinvestimento": "1200",
+                    "jurosinvestimento": "1"
+                }
+            ]
+        },
+        {
+            "email": "pedropaes@eu.com.br",
+            "nome": "Pedro Maia",
+            "sexo": "Masculino",
+            "nascimento": "21/01/2000",
+            "senha": "1234",
+            "salario": "2000",
+            "gastosgerais": "456",
+            "contas": [
+                {
+                    "nomeconta": "Conta de luz",
+                    "tipoconta": "Fixa",
+                    "nomeempresaconta": "Cemig",
+                    "valorconta": "95",
+                    "jurosconta": "5"
+                },
+                {
+                    "nomeconta": "Conta de agua",
+                    "tipoconta": "Fixa",
+                    "nomeempresaconta": "Copasa",
+                    "valorconta": "75",
+                    "jurosconta": "2"
+                }
+            ],
+            "investimentos": [
+                {
+                    "nomeinvestimento": "Fundo imobiliario",
+                    "tipoinvestimento": "Renda fixa",
+                    "nomeempresainvestimento": "FIIs",
+                    "valorinvestimento": "11000",
+                    "jurosinvestimento": "3"
+                }
+            ]
+        }
+    ]
+}
