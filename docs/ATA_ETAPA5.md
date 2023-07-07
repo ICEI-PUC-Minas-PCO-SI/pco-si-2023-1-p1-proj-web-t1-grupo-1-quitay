@@ -8,7 +8,7 @@ Lucas Henrique da Silva
 - Responsável por ajustes nas páginas como sugeriu o professor;
 
 Pedro Arley Paes
-- ;
+- Responsável pela criação, elaboração e teste do JSON;
 
 Sandy Costa
 - Responsável por ajustes nas páginas como sugeriu o professor;
