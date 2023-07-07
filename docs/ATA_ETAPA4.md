@@ -1,5 +1,5 @@
 Bruna de Oliveira
-- Responsável pela parte de Relatórios com o Lucas;
+- Responsável pela parte de Relatórios e Indicadores com o Lucas;
 
 Kerley Alves
 - Leitura e validação dos dados cadastrados pelos usuários nas páginas de Login e Cadastro de usuário;
